@@ -34,5 +34,14 @@
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608079292",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0807/8b918546889e4394b5e6a9dad536fef6.jpg",
     "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "mega-21054",
+    "theater": "MEGABOX",
+    "title": "리틀 드리머즈",
+    "startDate": "2026-08-14 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21054",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/13/slBFmrVssf2NFMBzLg5aP8Da0rIaaPYg.jpg",
+    "category": "빵원티켓"
   }
 ]
