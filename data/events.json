@@ -63,6 +63,15 @@
     "category": "무비싸다구"
   },
   {
+    "id": "mega-21060",
+    "theater": "MEGABOX",
+    "title": "인시디어스: 그들이 넘어왔다",
+    "startDate": "2026-08-18 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21060",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/14/Vkd0KHZBAVOoWuCOx89vR6cnkPU6Fjjt.jpg",
+    "category": "빵원티켓"
+  },
+  {
     "id": "lotte-201210016922014-24674",
     "theater": "LOTTECINEMA",
     "title": "경주기행",
