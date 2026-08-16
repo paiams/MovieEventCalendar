@@ -45,6 +45,15 @@
     "category": "빵원티켓"
   },
   {
+    "id": "cgv-202608149666",
+    "theater": "CGV",
+    "title": "경주기행",
+    "startDate": "2026-08-18 10:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608149666",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0814/b01abc814c7440a09fc79b07ccf6dbbf.jpg",
+    "category": "스피드쿠폰"
+  },
+  {
     "id": "lotte-201210016922014-24384",
     "theater": "LOTTECINEMA",
     "title": "인시디어스: 그들이 넘어왔다",
