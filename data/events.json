@@ -99,6 +99,15 @@
     "category": "무비싸다구"
   },
   {
+    "id": "lotte-201210016922014-24624",
+    "theater": "LOTTECINEMA",
+    "title": "오케이 마담2",
+    "startDate": "2026-08-19 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24624_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
     "id": "mega-21074",
     "theater": "MEGABOX",
     "title": "오크 스트리트의 마지막 날",
