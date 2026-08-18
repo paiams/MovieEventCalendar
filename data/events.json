@@ -63,6 +63,15 @@
     "category": "무비싸다구"
   },
   {
+    "id": "cgv-202608149409",
+    "theater": "CGV",
+    "title": "인시디어스: 그들이 넘어왔다",
+    "startDate": "2026-08-18 12:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608149409",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0814/c7633e2d394f4f54984aa4c5286babdc.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
     "id": "lotte-201210016922014-23071",
     "theater": "LOTTECINEMA",
     "title": "길 위의 뭉치",
