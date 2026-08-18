@@ -1,41 +1,5 @@
 [
   {
-    "id": "cgv-202607309189",
-    "theater": "CGV",
-    "title": "오케이 마담2",
-    "startDate": "2026-08-03 12:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202607309189",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0730/15baadd0a01244958072bbce68642c3e.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "mega-21006",
-    "theater": "MEGABOX",
-    "title": "오케이 마담2",
-    "startDate": "2026-08-04 11:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21006",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/03/6Tft4TqTHJSNkP9nlVTDAflL86imC2zC.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "lotte-201210016922014-24624",
-    "theater": "LOTTECINEMA",
-    "title": "오케이 마담2",
-    "startDate": "2026-08-10 11:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24624_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "cgv-202608079292",
-    "theater": "CGV",
-    "title": "오케이 마담2",
-    "startDate": "2026-08-11 12:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608079292",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0807/8b918546889e4394b5e6a9dad536fef6.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
     "id": "mega-21054",
     "theater": "MEGABOX",
     "title": "리틀 드리머즈",
