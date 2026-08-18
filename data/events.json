@@ -88,5 +88,23 @@
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24674_201_1.jpg",
     "category": "무비싸다구"
+  },
+  {
+    "id": "mega-21074",
+    "theater": "MEGABOX",
+    "title": "오크 스트리트의 마지막 날",
+    "startDate": "2026-08-19 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21074",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/18/JuTb0RAeb1mJkGCJvUie0raNvoZe7jfi.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "mega-21075",
+    "theater": "MEGABOX",
+    "title": "경주기행",
+    "startDate": "2026-08-19 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21075",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/18/uCcUT7JOonDHEXUMCAenXjpcBDZcJJPV.jpg",
+    "category": "빵원티켓"
   }
 ]
