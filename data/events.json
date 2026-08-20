@@ -106,5 +106,23 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21083",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/19/KmQ1jcWd9xiT2qJ4FuWR6rjr1B02Qo3U.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "lotte-201210016922014-24743",
+    "theater": "LOTTECINEMA",
+    "title": "오크 스트리트의 마지막 날",
+    "startDate": "2026-08-21 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24743_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
+    "id": "lotte-201210016922014-24709",
+    "theater": "LOTTECINEMA",
+    "title": "고스트밴드",
+    "startDate": "2026-08-21 14:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24709_201_1.jpg",
+    "category": "무비싸다구"
   }
 ]
