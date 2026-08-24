@@ -189,6 +189,24 @@
     "category": "무비싸다구"
   },
   {
+    "id": "cgv-202608249334",
+    "theater": "CGV",
+    "title": "고양이를 놓아줘",
+    "startDate": "2026-08-25 12:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608249334",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0824/0507179570f44b709c6014b9666443fc.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "cgv-202608249865",
+    "theater": "CGV",
+    "title": "인시디어스: 그들이 넘어왔다",
+    "startDate": "2026-08-25 14:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608249865",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0824/7fda97c0a7d54673b65d34f312b5ac71.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
     "id": "mega-21100",
     "theater": "MEGABOX",
     "title": "비광",
@@ -196,5 +214,14 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21100",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/24/HFLdrWXr6xhlCemzIEJLEoUJTaSO2CXW.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "cgv-202608249787",
+    "theater": "CGV",
+    "title": "싱 어게인",
+    "startDate": "2026-08-25 16:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608249787",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0824/aeec79f1e468483082f9f7c3d717d238.jpg",
+    "category": "서프라이즈쿠폰"
   }
 ]
