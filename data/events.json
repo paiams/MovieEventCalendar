@@ -1,14 +1,5 @@
 [
   {
-    "id": "mega-21054",
-    "theater": "MEGABOX",
-    "title": "리틀 드리머즈",
-    "startDate": "2026-08-14 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21054",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/13/slBFmrVssf2NFMBzLg5aP8Da0rIaaPYg.jpg",
-    "category": "빵원티켓"
-  },
-  {
     "id": "cgv-202608149666",
     "theater": "CGV",
     "title": "경주기행",
@@ -36,15 +27,6 @@
     "category": "서프라이즈쿠폰"
   },
   {
-    "id": "lotte-201210016922014-23071",
-    "theater": "LOTTECINEMA",
-    "title": "길 위의 뭉치",
-    "startDate": "2026-08-18 14:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202510/23071_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
     "id": "mega-21060",
     "theater": "MEGABOX",
     "title": "인시디어스: 그들이 넘어왔다",
@@ -60,15 +42,6 @@
     "startDate": "2026-08-18 16:00:00",
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24674_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "lotte-201210016922014-24624",
-    "theater": "LOTTECINEMA",
-    "title": "오케이 마담2",
-    "startDate": "2026-08-19 11:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24624_201_1.jpg",
     "category": "무비싸다구"
   },
   {
