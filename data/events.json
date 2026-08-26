@@ -9,33 +9,6 @@
     "category": "스피드쿠폰"
   },
   {
-    "id": "lotte-201210016922014-24384",
-    "theater": "LOTTECINEMA",
-    "title": "인시디어스: 그들이 넘어왔다",
-    "startDate": "2026-08-18 11:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24384_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "cgv-202608149409",
-    "theater": "CGV",
-    "title": "인시디어스: 그들이 넘어왔다",
-    "startDate": "2026-08-18 12:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608149409",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0814/c7633e2d394f4f54984aa4c5286babdc.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "mega-21060",
-    "theater": "MEGABOX",
-    "title": "인시디어스: 그들이 넘어왔다",
-    "startDate": "2026-08-18 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21060",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/14/Vkd0KHZBAVOoWuCOx89vR6cnkPU6Fjjt.jpg",
-    "category": "빵원티켓"
-  },
-  {
     "id": "lotte-201210016922014-24674",
     "theater": "LOTTECINEMA",
     "title": "경주기행",
@@ -70,15 +43,6 @@
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608149311",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0814/b794fca3b2a54a8fbdc3f64d6806207b.jpg",
     "category": "스피드쿠폰"
-  },
-  {
-    "id": "mega-21083",
-    "theater": "MEGABOX",
-    "title": "호프",
-    "startDate": "2026-08-20 11:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21083",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/19/KmQ1jcWd9xiT2qJ4FuWR6rjr1B02Qo3U.jpg",
-    "category": "빵원티켓"
   },
   {
     "id": "lotte-201210016922014-24743",
