@@ -196,5 +196,14 @@
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608249787",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0824/aeec79f1e468483082f9f7c3d717d238.jpg",
     "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "lotte-201210016922014-24624",
+    "theater": "LOTTECINEMA",
+    "title": "오케이 마담2",
+    "startDate": "2026-08-26 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24624_201_1.jpg",
+    "category": "무비싸다구"
   }
 ]
