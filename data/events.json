@@ -169,5 +169,32 @@
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24624_201_1.jpg",
     "category": "무비싸다구"
+  },
+  {
+    "id": "mega-21128",
+    "theater": "MEGABOX",
+    "title": "싱 어게인",
+    "startDate": "2026-08-28 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21128",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/27/i6EpsL5dO1MN7yrZPH3vZcKpYD8rbW0M.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "lotte-201210016922014-24709",
+    "theater": "LOTTECINEMA",
+    "title": "고스트밴드",
+    "startDate": "2026-08-28 14:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24709_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
+    "id": "mega-21129",
+    "theater": "MEGABOX",
+    "title": "인 더 그레이",
+    "startDate": "2026-08-28 16:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21129",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/27/Y1ha8izeQqtDZjAYlxyLQojMJkKguVE2.jpg",
+    "category": "빵원티켓"
   }
 ]
