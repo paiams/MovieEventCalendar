@@ -196,5 +196,23 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21129",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/27/Y1ha8izeQqtDZjAYlxyLQojMJkKguVE2.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "mega-21140",
+    "theater": "MEGABOX",
+    "title": "사진의 얼굴",
+    "startDate": "2026-08-31 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21140",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/28/i6C4qVUT3aXbZChlIc2jqnfy7K0umTr7.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "mega-21143",
+    "theater": "MEGABOX",
+    "title": "비광",
+    "startDate": "2026-08-31 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21143",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/28/7ABMKO41wY5bNTc0YC3IsyekDvfJbV8a.jpg",
+    "category": "빵원티켓"
   }
 ]
