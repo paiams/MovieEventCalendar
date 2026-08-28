@@ -207,6 +207,24 @@
     "category": "빵원티켓"
   },
   {
+    "id": "cgv-202608279876",
+    "theater": "CGV",
+    "title": "캐리어를 끄는 소녀",
+    "startDate": "2026-08-31 12:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608279876",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0827/2d10b9446aaf4b01b3beb924b640d53b.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "cgv-202608279342",
+    "theater": "CGV",
+    "title": "핵소 고지",
+    "startDate": "2026-08-31 14:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608279342",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0827/65bc5e16e75e42808bf2dbce0d7c7f0a.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
     "id": "mega-21143",
     "theater": "MEGABOX",
     "title": "비광",
@@ -214,5 +232,14 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21143",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/28/7ABMKO41wY5bNTc0YC3IsyekDvfJbV8a.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "cgv-202608279877",
+    "theater": "CGV",
+    "title": "모모와 다락방의 수상한 요괴들",
+    "startDate": "2026-08-31 16:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608279877",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0828/22986155f3314139b8ccfded05ccd080.jpg",
+    "category": "서프라이즈쿠폰"
   }
 ]
