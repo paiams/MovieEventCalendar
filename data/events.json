@@ -72,15 +72,6 @@
     "category": "서프라이즈쿠폰"
   },
   {
-    "id": "cgv-202608219859",
-    "theater": "CGV",
-    "title": "파라노만",
-    "startDate": "2026-08-24 14:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608219859",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0821/d75258522f404f0799f0f568400c2d32.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
     "id": "lotte-201210016922014-23071",
     "theater": "LOTTECINEMA",
     "title": "길 위의 뭉치",
@@ -88,6 +79,15 @@
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202510/23071_201_1.jpg",
     "category": "무비싸다구"
+  },
+  {
+    "id": "cgv-202608219859",
+    "theater": "CGV",
+    "title": "파라노만",
+    "startDate": "2026-08-24 14:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608219859",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0821/d75258522f404f0799f0f568400c2d32.jpg",
+    "category": "서프라이즈쿠폰"
   },
   {
     "id": "mega-21095",
@@ -99,15 +99,6 @@
     "category": "빵원티켓"
   },
   {
-    "id": "cgv-202608219419",
-    "theater": "CGV",
-    "title": "비광",
-    "startDate": "2026-08-24 16:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608219419",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0821/bbb590a48bcf4d8fa334443dc1bd0327.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
     "id": "lotte-201210016922014-24384",
     "theater": "LOTTECINEMA",
     "title": "인시디어스: 그들이 넘어왔다",
@@ -115,6 +106,15 @@
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24384_201_1.jpg",
     "category": "무비싸다구"
+  },
+  {
+    "id": "cgv-202608219419",
+    "theater": "CGV",
+    "title": "비광",
+    "startDate": "2026-08-24 16:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608219419",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0821/bbb590a48bcf4d8fa334443dc1bd0327.jpg",
+    "category": "서프라이즈쿠폰"
   },
   {
     "id": "lotte-201210016922014-24577",
@@ -196,6 +196,15 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21129",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/27/Y1ha8izeQqtDZjAYlxyLQojMJkKguVE2.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "cgv-202608279796",
+    "theater": "CGV",
+    "title": "경주기행",
+    "startDate": "2026-08-31 10:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608279796",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0828/896141f55c1745d8b3ba6f5cdb5f5056.jpg",
+    "category": "스피드쿠폰"
   },
   {
     "id": "mega-21140",
