@@ -223,5 +223,14 @@
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608279877",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0828/22986155f3314139b8ccfded05ccd080.jpg",
     "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "mega-21156",
+    "theater": "MEGABOX",
+    "title": "인턴",
+    "startDate": "2026-09-01 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21156",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/31/F7vJdqV5NP8qhPPnWsiPWOoz5waFKENb.jpg",
+    "category": "빵원티켓"
   }
 ]
