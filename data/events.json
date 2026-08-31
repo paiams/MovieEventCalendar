@@ -225,6 +225,15 @@
     "category": "서프라이즈쿠폰"
   },
   {
+    "id": "lotte-201210016922014-24745",
+    "theater": "LOTTECINEMA",
+    "title": "싱 어게인",
+    "startDate": "2026-09-01 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24745_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
     "id": "mega-21156",
     "theater": "MEGABOX",
     "title": "인턴",
@@ -232,5 +241,68 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21156",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/31/F7vJdqV5NP8qhPPnWsiPWOoz5waFKENb.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "cgv-202608279343",
+    "theater": "CGV",
+    "title": "싱 어게인",
+    "startDate": "2026-09-01 12:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608279343",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0827/99df703359fe46caa0d486c3e79c9173.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "cgv-202608279432",
+    "theater": "CGV",
+    "title": "딥 워터",
+    "startDate": "2026-09-01 14:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608279432",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0827/85d2b64c75fd4e91b2166a8fefc7eaa6.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "lotte-201210016922014-24648",
+    "theater": "LOTTECINEMA",
+    "title": "비광",
+    "startDate": "2026-09-01 14:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24648_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
+    "id": "cgv-202608279879",
+    "theater": "CGV",
+    "title": "리틀 드래곤: 몬스터섬의 비밀",
+    "startDate": "2026-09-01 16:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608279879",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0827/6c3bc265066a44c8bebbebacfdf9b619.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "lotte-201210016922014-24751",
+    "theater": "LOTTECINEMA",
+    "title": "인턴",
+    "startDate": "2026-09-01 16:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24751_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
+    "id": "mega-21157",
+    "theater": "MEGABOX",
+    "title": "경주기행",
+    "startDate": "2026-09-01 16:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21157",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/31/U3T9Qwp3g0WUfs6o622e27c39wTXlGf0.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "lotte-201210016922014-24674",
+    "theater": "LOTTECINEMA",
+    "title": "경주기행",
+    "startDate": "2026-09-01 17:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24674_201_1.jpg",
+    "category": "무비싸다구"
   }
 ]
