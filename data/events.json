@@ -1,119 +1,11 @@
 [
   {
-    "id": "cgv-202608149666",
-    "theater": "CGV",
-    "title": "경주기행",
-    "startDate": "2026-08-18 10:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608149666",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0814/b01abc814c7440a09fc79b07ccf6dbbf.jpg",
-    "category": "스피드쿠폰"
-  },
-  {
-    "id": "lotte-201210016922014-24674",
-    "theater": "LOTTECINEMA",
-    "title": "경주기행",
-    "startDate": "2026-08-18 16:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24674_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "mega-21074",
-    "theater": "MEGABOX",
-    "title": "오크 스트리트의 마지막 날",
-    "startDate": "2026-08-19 11:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21074",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/18/JuTb0RAeb1mJkGCJvUie0raNvoZe7jfi.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "mega-21075",
-    "theater": "MEGABOX",
-    "title": "경주기행",
-    "startDate": "2026-08-19 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21075",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/18/uCcUT7JOonDHEXUMCAenXjpcBDZcJJPV.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "cgv-202608149311",
-    "theater": "CGV",
-    "title": "오크 스트리트의 마지막 날",
-    "startDate": "2026-08-19 15:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608149311",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0814/b794fca3b2a54a8fbdc3f64d6806207b.jpg",
-    "category": "스피드쿠폰"
-  },
-  {
-    "id": "lotte-201210016922014-24743",
-    "theater": "LOTTECINEMA",
-    "title": "오크 스트리트의 마지막 날",
-    "startDate": "2026-08-21 11:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24743_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "lotte-201210016922014-24709",
-    "theater": "LOTTECINEMA",
-    "title": "고스트밴드",
-    "startDate": "2026-08-21 14:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24709_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "cgv-202608219325",
-    "theater": "CGV",
-    "title": "드라큘라: 러브테일",
-    "startDate": "2026-08-24 12:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608219325",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0821/fdd9a9f5b331469083d72bac34b328bb.png",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "cgv-202608219859",
-    "theater": "CGV",
-    "title": "파라노만",
-    "startDate": "2026-08-24 14:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608219859",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0821/d75258522f404f0799f0f568400c2d32.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
     "id": "cgv-202608219419",
     "theater": "CGV",
     "title": "비광",
     "startDate": "2026-08-24 16:00:00",
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608219419",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0821/bbb590a48bcf4d8fa334443dc1bd0327.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "lotte-201210016922014-24577",
-    "theater": "LOTTECINEMA",
-    "title": "귀향: 언니야 이제 집에가자",
-    "startDate": "2026-08-25 11:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24577_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "cgv-202608249334",
-    "theater": "CGV",
-    "title": "고양이를 놓아줘",
-    "startDate": "2026-08-25 12:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608249334",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0824/0507179570f44b709c6014b9666443fc.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "cgv-202608249865",
-    "theater": "CGV",
-    "title": "인시디어스: 그들이 넘어왔다",
-    "startDate": "2026-08-25 14:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608249865",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0824/7fda97c0a7d54673b65d34f312b5ac71.jpg",
     "category": "서프라이즈쿠폰"
   },
   {
@@ -133,15 +25,6 @@
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608249787",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0824/aeec79f1e468483082f9f7c3d717d238.jpg",
     "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "lotte-201210016922014-24624",
-    "theater": "LOTTECINEMA",
-    "title": "오케이 마담2",
-    "startDate": "2026-08-26 11:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24624_201_1.jpg",
-    "category": "무비싸다구"
   },
   {
     "id": "mega-21128",
