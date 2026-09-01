@@ -304,5 +304,14 @@
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24674_201_1.jpg",
     "category": "무비싸다구"
+  },
+  {
+    "id": "cgv-202609010009",
+    "theater": "CGV",
+    "title": "인턴",
+    "startDate": "2026-09-02 10:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202609010009",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0901/c16f495c35a54ead8d81babf6e7e1816.jpg",
+    "category": "스피드쿠폰"
   }
 ]
