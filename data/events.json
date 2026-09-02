@@ -135,15 +135,6 @@
     "category": "서프라이즈쿠폰"
   },
   {
-    "id": "lotte-201210016922014-24648",
-    "theater": "LOTTECINEMA",
-    "title": "비광",
-    "startDate": "2026-09-01 14:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24648_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
     "id": "cgv-202608279432",
     "theater": "CGV",
     "title": "딥 워터",
@@ -153,12 +144,12 @@
     "category": "서프라이즈쿠폰"
   },
   {
-    "id": "lotte-201210016922014-24751",
+    "id": "lotte-201210016922014-24648",
     "theater": "LOTTECINEMA",
-    "title": "인턴",
-    "startDate": "2026-09-01 16:00:00",
+    "title": "비광",
+    "startDate": "2026-09-01 14:00:00",
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24751_201_1.jpg",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24648_201_1.jpg",
     "category": "무비싸다구"
   },
   {
@@ -169,6 +160,15 @@
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608279879",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0827/6c3bc265066a44c8bebbebacfdf9b619.jpg",
     "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "lotte-201210016922014-24751",
+    "theater": "LOTTECINEMA",
+    "title": "인턴",
+    "startDate": "2026-09-01 16:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24751_201_1.jpg",
+    "category": "무비싸다구"
   },
   {
     "id": "mega-21157",
@@ -196,5 +196,14 @@
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202609010009",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0901/c16f495c35a54ead8d81babf6e7e1816.jpg",
     "category": "스피드쿠폰"
+  },
+  {
+    "id": "mega-21173",
+    "theater": "MEGABOX",
+    "title": "싱 어게인",
+    "startDate": "2026-09-03 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21173",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/27/i6EpsL5dO1MN7yrZPH3vZcKpYD8rbW0M.jpg",
+    "category": "빵원티켓"
   }
 ]
