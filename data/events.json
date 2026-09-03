@@ -205,5 +205,23 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21173",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/27/i6EpsL5dO1MN7yrZPH3vZcKpYD8rbW0M.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "mega-21180",
+    "theater": "MEGABOX",
+    "title": "더 드라마",
+    "startDate": "2026-09-04 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21180",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/03/cb2axKdSK7goakDNulOS7iTvpfXDiy3F.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "mega-21181",
+    "theater": "MEGABOX",
+    "title": "연옥: 살인마들의 자치구역",
+    "startDate": "2026-09-04 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21181",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/03/hSj2qGfuO9finrTGLawJwyxAE6c0tdWY.jpg",
+    "category": "빵원티켓"
   }
 ]
