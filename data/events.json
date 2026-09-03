@@ -207,6 +207,15 @@
     "category": "빵원티켓"
   },
   {
+    "id": "lotte-201210016922014-24709",
+    "theater": "LOTTECINEMA",
+    "title": "고스트밴드",
+    "startDate": "2026-09-04 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202608/24709_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
     "id": "mega-21180",
     "theater": "MEGABOX",
     "title": "더 드라마",
@@ -216,12 +225,39 @@
     "category": "빵원티켓"
   },
   {
+    "id": "lotte-201210016922014-24872",
+    "theater": "LOTTECINEMA",
+    "title": "아버지의 집밥",
+    "startDate": "2026-09-04 14:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24872_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
     "id": "mega-21181",
     "theater": "MEGABOX",
     "title": "연옥: 살인마들의 자치구역",
     "startDate": "2026-09-04 14:30:00",
     "url": "https://megabox.co.kr/event/detail?eventNo=21181",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/03/hSj2qGfuO9finrTGLawJwyxAE6c0tdWY.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "lotte-201210016922014-24745",
+    "theater": "LOTTECINEMA",
+    "title": "싱 어게인",
+    "startDate": "2026-09-04 16:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24745_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
+    "id": "mega-21182",
+    "theater": "MEGABOX",
+    "title": "네 얼굴로는 울 수 없어",
+    "startDate": "2026-09-04 16:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21182",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/03/PtqyBW4oSy2zr2IuczNtE0xtOu44mSF9.jpg",
     "category": "빵원티켓"
   }
 ]
