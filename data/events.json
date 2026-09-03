@@ -126,15 +126,6 @@
     "category": "서프라이즈쿠폰"
   },
   {
-    "id": "lotte-201210016922014-24648",
-    "theater": "LOTTECINEMA",
-    "title": "비광",
-    "startDate": "2026-09-01 14:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24648_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
     "id": "cgv-202608279432",
     "theater": "CGV",
     "title": "딥 워터",
@@ -144,12 +135,12 @@
     "category": "서프라이즈쿠폰"
   },
   {
-    "id": "lotte-201210016922014-24751",
+    "id": "lotte-201210016922014-24648",
     "theater": "LOTTECINEMA",
-    "title": "인턴",
-    "startDate": "2026-09-01 16:00:00",
+    "title": "비광",
+    "startDate": "2026-09-01 14:00:00",
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24751_201_1.jpg",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24648_201_1.jpg",
     "category": "무비싸다구"
   },
   {
@@ -160,6 +151,15 @@
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608279879",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0827/6c3bc265066a44c8bebbebacfdf9b619.jpg",
     "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "lotte-201210016922014-24751",
+    "theater": "LOTTECINEMA",
+    "title": "인턴",
+    "startDate": "2026-09-01 16:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24751_201_1.jpg",
+    "category": "무비싸다구"
   },
   {
     "id": "mega-21157",
