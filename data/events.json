@@ -250,5 +250,41 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21182",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/03/PtqyBW4oSy2zr2IuczNtE0xtOu44mSF9.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "lotte-201210016922014-24648",
+    "theater": "LOTTECINEMA",
+    "title": "비광",
+    "startDate": "2026-09-07 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24648_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
+    "id": "lotte-201210016922014-24712",
+    "theater": "LOTTECINEMA",
+    "title": "연옥: 살인마들의 자치구역",
+    "startDate": "2026-09-07 14:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24712_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
+    "id": "mega-21189",
+    "theater": "MEGABOX",
+    "title": "아가미",
+    "startDate": "2026-09-07 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21189",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/04/pBwa3zIAZjaEb8BJ4CCYHYlGalSbiYV2.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "mega-21188",
+    "theater": "MEGABOX",
+    "title": "인 더 그레이",
+    "startDate": "2026-09-07 16:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21188",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/04/784iJoCM9vTlLqANvxnJ3Z01hnCzWIF4.jpg",
+    "category": "빵원티켓"
   }
 ]
