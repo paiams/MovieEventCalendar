@@ -261,6 +261,24 @@
     "category": "무비싸다구"
   },
   {
+    "id": "cgv-202609039821",
+    "theater": "CGV",
+    "title": "연옥: 살인마들의 자치구역",
+    "startDate": "2026-09-07 12:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202609039821",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0903/04c9e7dd688a4396a3790c602f9b44a9.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "cgv-202609039824",
+    "theater": "CGV",
+    "title": "비광",
+    "startDate": "2026-09-07 14:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202609039824",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0904/7c5706bba0a14c60b0daff32fd3e8122.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
     "id": "lotte-201210016922014-24712",
     "theater": "LOTTECINEMA",
     "title": "연옥: 살인마들의 자치구역",
@@ -277,6 +295,15 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21189",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/04/pBwa3zIAZjaEb8BJ4CCYHYlGalSbiYV2.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "cgv-202609039825",
+    "theater": "CGV",
+    "title": "네 얼굴로는 울 수 없어",
+    "startDate": "2026-09-07 16:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202609039825",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0904/069aff2127214414af7a7c494a49dc01.jpg",
+    "category": "서프라이즈쿠폰"
   },
   {
     "id": "mega-21188",
