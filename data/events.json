@@ -315,6 +315,15 @@
     "category": "빵원티켓"
   },
   {
+    "id": "cgv-202609119922",
+    "theater": "CGV",
+    "title": "암살자(들)",
+    "startDate": "2026-09-14 15:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202609119922",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0911/f063febfbd434cd9b14f8cdb2baa5aae.jpg",
+    "category": "스피드쿠폰"
+  },
+  {
     "id": "cgv-202609119924",
     "theater": "CGV",
     "title": "레지던트 이블: 0번째 밤",
@@ -330,6 +339,15 @@
     "startDate": "2026-09-14 16:30:00",
     "url": "https://megabox.co.kr/event/detail?eventNo=21232",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/11/IVD116vFUVxZA0Bnycc6Vx09mvkqzauZ.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "mega-21247",
+    "theater": "MEGABOX",
+    "title": "레지던트 이블: 0번째 밤",
+    "startDate": "2026-09-15 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21247",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/14/1SIWmfUfFVA2gZfBdDBOZ8LUJgjmBdDg.jpg",
     "category": "빵원티켓"
   }
 ]
