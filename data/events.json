@@ -9,24 +9,6 @@
     "category": "빵원티켓"
   },
   {
-    "id": "cgv-202608279432",
-    "theater": "CGV",
-    "title": "딥 워터",
-    "startDate": "2026-09-01 14:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608279432",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0827/85d2b64c75fd4e91b2166a8fefc7eaa6.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "cgv-202608279879",
-    "theater": "CGV",
-    "title": "리틀 드래곤: 몬스터섬의 비밀",
-    "startDate": "2026-09-01 16:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202608279879",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0827/6c3bc265066a44c8bebbebacfdf9b619.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
     "id": "lotte-201210016922014-24751",
     "theater": "LOTTECINEMA",
     "title": "인턴",
@@ -54,69 +36,6 @@
     "category": "빵원티켓"
   },
   {
-    "id": "lotte-201210016922014-24872",
-    "theater": "LOTTECINEMA",
-    "title": "아버지의 집밥",
-    "startDate": "2026-09-04 14:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24872_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "mega-21181",
-    "theater": "MEGABOX",
-    "title": "연옥: 살인마들의 자치구역",
-    "startDate": "2026-09-04 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21181",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/03/hSj2qGfuO9finrTGLawJwyxAE6c0tdWY.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "mega-21182",
-    "theater": "MEGABOX",
-    "title": "네 얼굴로는 울 수 없어",
-    "startDate": "2026-09-04 16:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21182",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/03/PtqyBW4oSy2zr2IuczNtE0xtOu44mSF9.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "cgv-202609039821",
-    "theater": "CGV",
-    "title": "연옥: 살인마들의 자치구역",
-    "startDate": "2026-09-07 12:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202609039821",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0903/04c9e7dd688a4396a3790c602f9b44a9.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "lotte-201210016922014-24712",
-    "theater": "LOTTECINEMA",
-    "title": "연옥: 살인마들의 자치구역",
-    "startDate": "2026-09-07 14:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24712_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "mega-21189",
-    "theater": "MEGABOX",
-    "title": "아가미",
-    "startDate": "2026-09-07 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21189",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/04/pBwa3zIAZjaEb8BJ4CCYHYlGalSbiYV2.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "cgv-202609039825",
-    "theater": "CGV",
-    "title": "네 얼굴로는 울 수 없어",
-    "startDate": "2026-09-07 16:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202609039825",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0904/069aff2127214414af7a7c494a49dc01.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
     "id": "cgv-202609079910",
     "theater": "CGV",
     "title": "타짜: 벨제붑의 노래",
@@ -126,84 +45,12 @@
     "category": "스피드쿠폰"
   },
   {
-    "id": "mega-21197",
-    "theater": "MEGABOX",
-    "title": "싱 어게인",
-    "startDate": "2026-09-08 11:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21197",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/08/27/i6EpsL5dO1MN7yrZPH3vZcKpYD8rbW0M.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "cgv-202609049826",
-    "theater": "CGV",
-    "title": "아가미",
-    "startDate": "2026-09-08 12:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202609049826",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0904/dc93d5fcd66445c9841aec300b381f1c.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "cgv-202609049965",
-    "theater": "CGV",
-    "title": "카를로비바리",
-    "startDate": "2026-09-08 14:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202609049965",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0904/99fc29ece4e645d29a45214e69b623b4.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "lotte-201210016922014-24749",
-    "theater": "LOTTECINEMA",
-    "title": "네 얼굴로는 울 수 없어",
-    "startDate": "2026-09-08 14:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24749_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
     "id": "mega-21196",
     "theater": "MEGABOX",
     "title": "타짜: 벨제붑의 노래",
     "startDate": "2026-09-08 14:30:00",
     "url": "https://megabox.co.kr/event/detail?eventNo=21196",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/07/MW4xpNKcpXJ3dNVamW2w6NWtJMIHtDgz.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "cgv-202609079909",
-    "theater": "CGV",
-    "title": "모모와 다락방의 수상한 요괴들",
-    "startDate": "2026-09-08 16:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202609079909",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/0907/4f5a4c02703f48cd8e624df4ac75d40c.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "lotte-201210016922014-24746",
-    "theater": "LOTTECINEMA",
-    "title": "더 드라마",
-    "startDate": "2026-09-08 16:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24746_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "mega-21198",
-    "theater": "MEGABOX",
-    "title": "카를로비바리",
-    "startDate": "2026-09-08 16:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21198",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/07/3HMLakbtGZFep6oBCnjI8zzaBOlHKWU4.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "mega-21213",
-    "theater": "MEGABOX",
-    "title": "비광",
-    "startDate": "2026-09-09 11:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21213",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/08/GePHsXipQpJu4o6PiO5tuv0q8kTTyow9.jpg",
     "category": "빵원티켓"
   },
   {
