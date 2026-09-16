@@ -223,5 +223,14 @@
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24745_201_1.jpg",
     "category": "무비싸다구"
+  },
+  {
+    "id": "lotte-201210016922014-24751",
+    "theater": "LOTTECINEMA",
+    "title": "인턴",
+    "startDate": "2026-09-17 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24751_201_1.jpg",
+    "category": "무비싸다구"
   }
 ]
