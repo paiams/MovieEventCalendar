@@ -180,15 +180,6 @@
     "category": "무비싸다구"
   },
   {
-    "id": "lotte-201210016922014-24745",
-    "theater": "LOTTECINEMA",
-    "title": "싱 어게인",
-    "startDate": "2026-09-15 16:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24745_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
     "id": "cgv-202609110032",
     "theater": "CGV",
     "title": "아가미",
@@ -198,6 +189,15 @@
     "category": "서프라이즈쿠폰"
   },
   {
+    "id": "lotte-201210016922014-24745",
+    "theater": "LOTTECINEMA",
+    "title": "싱 어게인",
+    "startDate": "2026-09-15 16:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24745_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
     "id": "lotte-201210016922014-24751",
     "theater": "LOTTECINEMA",
     "title": "인턴",
@@ -205,5 +205,14 @@
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24751_201_1.jpg",
     "category": "무비싸다구"
+  },
+  {
+    "id": "mega-21266",
+    "theater": "MEGABOX",
+    "title": "인턴",
+    "startDate": "2026-09-18 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21266",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/09/17/pT5q9wQEEBXda24APiwBB328oVVe6roW.jpg",
+    "category": "빵원티켓"
   }
 ]
