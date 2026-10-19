@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     env:
-      CGV_WORKER_URL: https://movie-event-cgv.ubiquitous-textbook.workers.dev
+      CGV_WORKER_URL: https://movie-event-cgv.kbh1933.workers.dev
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -28,32 +28,12 @@ jobs:
       - run: node --test workers/cgv/worker.test.mjs
       - name: Inspect Worker response
         run: |
-          pip install curl_cffi
           python - <<'PY'
           import os, requests
-          from curl_cffi import requests as browser_requests
-          for name, get in [('requests', requests.get), ('chrome', lambda url, **kw: browser_requests.get(url, impersonate='chrome', **kw))]:
-              for path in ['/', '/feed']:
-                  response = get(os.environ['CGV_WORKER_URL'] + path, timeout=30)
-                  print(name, path, 'status:', response.status_code)
-                  print('headers:', {key: value for key, value in response.headers.items() if key.lower() in ('server', 'cf-ray', 'cf-placement', 'content-type')})
-                  print('body:', response.text[:150] if not response.ok else 'CGV JSON received')
-          PY
-      - name: Check Worker with Chromium
-        run: |
-          pip install playwright
-          playwright install --with-deps chromium
-          python - <<'PY'
-          import os
-          from playwright.sync_api import sync_playwright
-          with sync_playwright() as p:
-              browser = p.chromium.launch()
-              page = browser.new_page()
-              page.goto(os.environ['CGV_WORKER_URL'], wait_until='domcontentloaded')
-              page.wait_for_timeout(15000)
-              print('browser URL:', page.url)
-              print('browser body:', page.locator('body').inner_text()[:2000])
-              browser.close()
+          response = requests.get(os.environ['CGV_WORKER_URL'], timeout=30)
+          print('status:', response.status_code)
+          print('headers:', {key: value for key, value in response.headers.items() if key.lower() in ('server', 'cf-ray', 'cf-placement', 'content-type')})
+          print('body:', response.text[:150])
           PY
       - name: Check all crawlers through CGV Worker
         run: python -u backend/main.py
