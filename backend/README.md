@@ -65,7 +65,7 @@ python -m unittest discover -s tests -v
 
 `workers/cgv/worker.mjs`는 고정된 CGV 공개 검색 API만 중계합니다. 기존 Python 파서와 실패 시 배포 중단 동작은 그대로 사용합니다.
 
-저장소 루트에서 Cloudflare 계정에 Worker를 배포한 뒤, 출력된 `workers.dev` 주소를 GitHub 저장소의 Actions 변수 `CGV_WORKER_URL`로 등록합니다.
+저장소 루트에서 Cloudflare 무료 계정에 Worker를 배포한 뒤, 출력된 `workers.dev` 주소를 GitHub 저장소의 Actions 변수 `CGV_WORKER_URL`로 등록합니다. `wrangler.jsonc`의 `placement.region`은 서울 인근(`aws:ap-northeast-2`)에서 API를 호출하도록 설정합니다.
 
 ```bash
 npx wrangler@4 deploy --config workers/cgv/wrangler.jsonc
@@ -75,7 +75,9 @@ node --test workers/cgv/worker.test.mjs
 
 로컬에서는 환경 변수 `CGV_WORKER_URL`에 같은 주소를 지정할 수 있습니다. 변수가 없으면 기존 직접 수집 방식을 사용합니다. 이 주소는 공개 피드이므로 비밀 키가 아닙니다. 다른 URL이나 클라이언트 인증 헤더를 중계하지 않습니다.
 
-Workers Free 플랜은 일 100,000회 요청을 제공하며, 현재 2시간 주기 수집은 일 12회입니다. 무료 한도 초과나 CGV의 추가 차단 시에는 수집이 실패하고 이전 배포 데이터를 유지합니다. 배포 후에는 GitHub Actions에서도 실제 수집을 확인해야 합니다.
+Workers Free 플랜은 [일 100,000회 요청](https://developers.cloudflare.com/workers/platform/pricing/)을 제공하며, 현재 2시간 주기 수집은 일 12회입니다. 무료 한도 초과나 CGV의 추가 차단 시에는 수집이 실패하고 이전 배포 데이터를 유지합니다. 배포 후에는 GitHub Actions에서도 실제 수집을 확인해야 합니다.
+
+`--temporary`로 배포한 계정은 60분 안에 소유권을 등록하지 않으면 삭제됩니다. 운영에는 일반 무료 계정을 사용하세요. 테스트 중 임시 계정 주소는 Actions에서 Cloudflare 브라우저 확인 화면을 반환했으며, 일반 계정 주소는 정상 호출됐습니다.
 
 ### GitHub Actions (자동)
 
