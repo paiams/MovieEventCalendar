@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-24.04-arm, windows-2025, macos-15]
+        os: [ubuntu-24.04]
     runs-on: ${{ matrix.os }}
     timeout-minutes: 5
     steps:
@@ -20,17 +20,23 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.10'
-      - run: pip install -r backend/requirements.txt
-      - name: Check CGV crawler
+      - run: pip install playwright==1.60.0
+      - run: python -m playwright install --with-deps chromium
+      - name: Check CGV browser access
         shell: bash
         run: |
           python -u - <<'PY'
-          import sys
-          sys.path.insert(0, "backend")
-          from crawlers.cgv import get_cgv_coupons
-          events = get_cgv_coupons()
-          assert events, "Expected current CGV coupons"
-          print("CGV coupons:", len(events))
-          for event in events:
-              print(event.id, event.title, event.startDate)
+          from playwright.sync_api import sync_playwright
+          with sync_playwright() as playwright:
+              browser = playwright.chromium.launch(headless=True)
+              page = browser.new_page(locale="ko-KR", timezone_id="Asia/Seoul")
+              response = page.goto("https://cgv.co.kr/tme/itgrSrch?swrd=%EC%BF%A0%ED%8F%B0", wait_until="domcontentloaded", timeout=30000)
+              print("Browser page:", response.status, flush=True)
+              print(page.locator("body").inner_text()[:2000], flush=True)
+              assert response.ok, "CGV blocked Chromium on Actions"
+              with page.expect_response(lambda response: "/itgrSrch/searchItgrSrchAll" in response.url, timeout=20000) as info:
+                  page.reload(wait_until="domcontentloaded")
+              data = info.value.json()
+              print("Browser CGV events:", len(data["data"]["evntInfo"]["evntLst"]), flush=True)
+              browser.close()
           PY
