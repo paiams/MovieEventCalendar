@@ -26,5 +26,14 @@ jobs:
         with:
           node-version: '24'
       - run: node --test workers/cgv/worker.test.mjs
+      - name: Inspect Worker response
+        run: |
+          python - <<'PY'
+          import os, requests
+          response = requests.get(os.environ['CGV_WORKER_URL'], timeout=30)
+          print('status:', response.status_code)
+          print('headers:', {key: value for key, value in response.headers.items() if key.lower() in ('server', 'cf-ray', 'cf-placement', 'content-type')})
+          print('body:', response.text[:4000] if not response.ok else 'CGV JSON received')
+          PY
       - name: Check all crawlers through CGV Worker
         run: python -u backend/main.py
