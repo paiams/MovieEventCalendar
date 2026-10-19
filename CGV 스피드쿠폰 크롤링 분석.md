@@ -3,14 +3,16 @@
 ## 1. 데이터 수집 접근 방식
 
 *   **타겟 URL**: https://cgv.co.kr/tme/itgrSrch?swrd=쿠폰
-*   **수집 방식**: **Requests 세션을 이용한 통합 검색 API 호출**
-*   **배경**: API를 바로 호출하면 403이 반환되므로 검색 페이지를 먼저 열어 Cloudflare 쿠키를 받은 뒤 같은 세션에서 API를 호출합니다. 스피드 쿠폰과 서프라이즈 쿠폰을 모두 수집하기 위해 통합 검색어인 '쿠폰'을 사용합니다.
+*   **수집 방식**: **Requests로 통합 검색 API 호출, Actions에서는 Cloudflare Worker를 통해 중계 가능**
+*   **배경**: 2026-10-19 확인 시 로컬 직접 요청은 성공했지만 GitHub 호스팅 실행 환경에서는 Requests, Chrome 연결 방식, 실제 Chromium 모두 CGV의 403 차단 응답을 받았습니다. Cloudflare 공식 Playground에서는 같은 공개 API가 HTTP 200과 영화 쿠폰 13개를 반환했습니다. 스피드 쿠폰과 서프라이즈 쿠폰을 함께 수집하도록 검색어는 '쿠폰'을 사용합니다.
 
 ## 2. 기술적 특징 및 보안 우회
 
 *   **세션 쿠키 유지**: 검색 페이지와 API 요청에 같은 `requests.Session`을 사용합니다.
+*   **Worker 경유**: `CGV_WORKER_URL` 설정 시 검색 페이지 접속 없이 Worker가 반환한 원본 검색 응답을 기존 파서에 전달합니다. 배포 및 변수 등록 절차는 [백엔드 문서](backend/README.md)를 참고합니다.
 *   **요청 헤더 설정**: User-Agent, Referer, Accept 헤더를 실제 웹 요청과 맞춥니다.
 *   **응답 검증**: HTTP 오류나 `evntLst` 구조 변경 시 실패 처리하여 빈 데이터를 배포하지 않습니다.
+*   **중계 범위 제한**: Worker는 코드에 고정된 공개 API만 호출하며 요청자의 URL·쿠키·인증 헤더를 전달하지 않습니다.
 
 ## 3. Response 파싱 및 데이터 추출 로직
 

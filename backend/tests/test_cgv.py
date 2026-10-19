@@ -1,13 +1,62 @@
 import unittest
+from unittest.mock import patch
+
+from requests.exceptions import HTTPError
 
 from crawlers.cgv import (
     build_movie_events,
     extract_event_search_payload,
+    get_cgv_coupons,
     normalize_start_date,
 )
 
 
 class CgvCrawlerTest(unittest.TestCase):
+    @patch.dict("os.environ", {"CGV_WORKER_URL": "https://cgv.example.workers.dev"})
+    @patch("crawlers.cgv.create_retry_session")
+    def test_worker_preserves_parsing_and_rejects_failed_responses(self, create_session):
+        session = create_session.return_value.__enter__.return_value
+        response = session.get.return_value
+        response.json.return_value = {
+            "data": {"evntInfo": {"evntLst": [{
+                "evntNo": "101",
+                "evntNm": "[테스트] 스피드 쿠폰",
+                "evntStartDt": "20261020140000",
+            }]}}
+        }
+
+        events = get_cgv_coupons()
+        self.assertEqual(["cgv-101"], [event.id for event in events])
+        self.assertEqual("2026-10-20 14:00:00", events[0].startDate)
+        session.get.assert_called_once_with(
+            "https://cgv.example.workers.dev", timeout=(5, 20)
+        )
+
+        response.json.return_value = {"data": {}}
+        with self.assertRaisesRegex(RuntimeError, "evntLst"):
+            get_cgv_coupons()
+
+        response.json.return_value = {"data": {"evntInfo": {"evntLst": []}}}
+        self.assertEqual([], get_cgv_coupons())
+
+        response.raise_for_status.side_effect = HTTPError("403 Forbidden")
+        with self.assertRaises(HTTPError):
+            get_cgv_coupons()
+
+    @patch.dict("os.environ", {"CGV_WORKER_URL": ""})
+    @patch("crawlers.cgv.create_retry_session")
+    def test_direct_access_still_initializes_the_search_session(self, create_session):
+        session = create_session.return_value.__enter__.return_value
+        session.get.return_value.json.return_value = {
+            "data": {"evntInfo": {"evntLst": []}}
+        }
+
+        self.assertEqual([], get_cgv_coupons())
+        self.assertEqual(2, session.get.call_count)
+        self.assertEqual(
+            "https://cgv.co.kr/tme/itgrSrch", session.get.call_args_list[0].args[0]
+        )
+
     def test_extracts_event_list_and_distinguishes_empty_result(self):
         payload = {
             "statusCode": 0,
