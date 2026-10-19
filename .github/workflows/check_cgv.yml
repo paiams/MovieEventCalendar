@@ -20,6 +20,7 @@ jobs:
       - name: Compare CGV requests
         run: |
           python -u - <<'PY'
+          import re
           import requests
           from curl_cffi import requests as chrome_requests
 
@@ -28,17 +29,22 @@ jobs:
               ("chrome", chrome_requests.Session(impersonate="chrome")),
           ):
               with session:
-                  for path, params in (
-                      ("/tme/itgrSrch", {"swrd": "쿠폰"}),
-                      ("/api/v1/common/timeline/more/itgrSrch/searchItgrSrchAll", {"coCd": "A420", "swrd": "쿠폰"}),
+                  for host, path, params in (
+                      ("cgv.co.kr", "/tme/itgrSrch", {"swrd": "쿠폰"}),
+                      ("cgv.co.kr", "/api/v1/common/timeline/more/itgrSrch/searchItgrSrchAll", {"coCd": "A420", "swrd": "쿠폰"}),
+                      ("www.cgv.co.kr", "/tme/itgrSrch", {"swrd": "쿠폰"}),
+                      ("www.cgv.co.kr", "/api/v1/common/timeline/more/itgrSrch/searchItgrSrchAll", {"coCd": "A420", "swrd": "쿠폰"}),
+                      ("m.cgv.co.kr", "/tme/itgrSrch", {"swrd": "쿠폰"}),
                   ):
-                      response = session.get("https://cgv.co.kr" + path, params=params, timeout=(5, 20))
-                      print(name, path, response.status_code, response.headers.get("cf-mitigated"), response.headers.get("cf-ray"), flush=True)
-                      if response.status_code != 200:
-                          print(response.text[:1200], flush=True)
-                      if name == "chrome":
-                          response.raise_for_status()
-                          if "/api/" in path:
+                      try:
+                          response = session.get("https://" + host + path, params=params, timeout=(5, 20))
+                          print(name, response.url, response.status_code, response.headers.get("cf-mitigated"), response.headers.get("cf-ray"), flush=True)
+                          if response.status_code != 200:
+                              body = re.sub(r"<(style|script)\b[^>]*>.*?</\1>", "", response.text, flags=re.S)
+                              print(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", body)), flush=True)
+                          if response.status_code == 200 and "/api/" in path:
                               events = response.json()["data"]["evntInfo"]["evntLst"]
                               print("CGV events:", len(events), flush=True)
+                      except Exception as error:
+                          print(type(error).__name__, str(error), flush=True)
           PY
