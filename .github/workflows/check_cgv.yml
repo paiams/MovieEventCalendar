@@ -39,5 +39,21 @@ jobs:
                   print('headers:', {key: value for key, value in response.headers.items() if key.lower() in ('server', 'cf-ray', 'cf-placement', 'content-type')})
                   print('body:', response.text[:150] if not response.ok else 'CGV JSON received')
           PY
+      - name: Check Worker with Chromium
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+          python - <<'PY'
+          import os
+          from playwright.sync_api import sync_playwright
+          with sync_playwright() as p:
+              browser = p.chromium.launch()
+              page = browser.new_page()
+              page.goto(os.environ['CGV_WORKER_URL'], wait_until='domcontentloaded')
+              page.wait_for_timeout(15000)
+              print('browser URL:', page.url)
+              print('browser body:', page.locator('body').inner_text()[:2000])
+              browser.close()
+          PY
       - name: Check all crawlers through CGV Worker
         run: python -u backend/main.py
