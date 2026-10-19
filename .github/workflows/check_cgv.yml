@@ -9,42 +9,28 @@ permissions:
 
 jobs:
   check-cgv:
-    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04-arm, windows-2025, macos-15]
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with:
           python-version: '3.10'
-      - run: pip install requests==2.34.2 curl_cffi==0.16.3
-      - name: Compare CGV requests
+      - run: pip install -r backend/requirements.txt
+      - name: Check CGV crawler
+        shell: bash
         run: |
           python -u - <<'PY'
-          import re
-          import requests
-          from curl_cffi import requests as chrome_requests
-
-          for name, session in (
-              ("requests", requests.Session()),
-              ("chrome", chrome_requests.Session(impersonate="chrome")),
-          ):
-              with session:
-                  for host, path, params in (
-                      ("cgv.co.kr", "/tme/itgrSrch", {"swrd": "쿠폰"}),
-                      ("cgv.co.kr", "/api/v1/common/timeline/more/itgrSrch/searchItgrSrchAll", {"coCd": "A420", "swrd": "쿠폰"}),
-                      ("www.cgv.co.kr", "/tme/itgrSrch", {"swrd": "쿠폰"}),
-                      ("www.cgv.co.kr", "/api/v1/common/timeline/more/itgrSrch/searchItgrSrchAll", {"coCd": "A420", "swrd": "쿠폰"}),
-                      ("m.cgv.co.kr", "/tme/itgrSrch", {"swrd": "쿠폰"}),
-                  ):
-                      try:
-                          response = session.get("https://" + host + path, params=params, timeout=(5, 20))
-                          print(name, response.url, response.status_code, response.headers.get("cf-mitigated"), response.headers.get("cf-ray"), flush=True)
-                          if response.status_code != 200:
-                              body = re.sub(r"<(style|script)\b[^>]*>.*?</\1>", "", response.text, flags=re.S)
-                              print(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", body)), flush=True)
-                          if response.status_code == 200 and "/api/" in path:
-                              events = response.json()["data"]["evntInfo"]["evntLst"]
-                              print("CGV events:", len(events), flush=True)
-                      except Exception as error:
-                          print(type(error).__name__, str(error), flush=True)
+          import sys
+          sys.path.insert(0, "backend")
+          from crawlers.cgv import get_cgv_coupons
+          events = get_cgv_coupons()
+          assert events, "Expected current CGV coupons"
+          print("CGV coupons:", len(events))
+          for event in events:
+              print(event.id, event.title, event.startDate)
           PY
