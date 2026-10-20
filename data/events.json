@@ -1,32 +1,5 @@
 [
   {
-    "id": "cgv-202610020714",
-    "theater": "CGV",
-    "title": "전자오락수호대",
-    "startDate": "2026-10-06 16:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610020714",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1002/3062ae960dd54669b3fb49d3897651ce.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "mega-21347",
-    "theater": "MEGABOX",
-    "title": "전자오락수호대",
-    "startDate": "2026-10-07 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21347",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/06/oMqwCSCNoAcWBn7RktExkRND9jEuzLZB.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "lotte-201210016922014-24977",
-    "theater": "LOTTECINEMA",
-    "title": "웨일폴: 고래에 먹힌 남자",
-    "startDate": "2026-10-08 11:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/24977_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
     "id": "mega-21357",
     "theater": "MEGABOX",
     "title": "여전히 찬란하게",
@@ -34,60 +7,6 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21357",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/07/MiPioG1IkJ31qdFbaty9bnoZ9sLWudxw.jpg",
     "category": "빵원티켓"
-  },
-  {
-    "id": "lotte-201210016922014-25009",
-    "theater": "LOTTECINEMA",
-    "title": "파리스 그린이 밝는 날에",
-    "startDate": "2026-10-08 14:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/25009_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "mega-21356",
-    "theater": "MEGABOX",
-    "title": "웨일폴: 고래에 먹힌 남자",
-    "startDate": "2026-10-08 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21356",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/07/kscY46MVunG2pPRIA5eH7wRQL4HeRw33.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "mega-21355",
-    "theater": "MEGABOX",
-    "title": "스트리트 파이터",
-    "startDate": "2026-10-08 16:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21355",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/07/kI2O0LrHd5f0BRzZFNvH9L5kdfespOeN.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "lotte-201210016922014-24934",
-    "theater": "LOTTECINEMA",
-    "title": "전자오락수호대",
-    "startDate": "2026-10-12 11:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/24934_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "cgv-202610081005",
-    "theater": "CGV",
-    "title": "스트리트 파이터",
-    "startDate": "2026-10-12 12:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610081005",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1008/b5a2ff4c490c43e799a2e38ec6b1e38f.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "lotte-201210016922014-24346",
-    "theater": "LOTTECINEMA",
-    "title": "스트리트 파이터",
-    "startDate": "2026-10-12 14:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/24346_201_1.jpg",
-    "category": "무비싸다구"
   },
   {
     "id": "cgv-202610080918",
@@ -106,42 +25,6 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21374",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/12/i8FMTImVIImD8NCiCJySWQTNlmNU4pn2.jpg",
     "category": "빵원티켓"
-  },
-  {
-    "id": "cgv-202610081110",
-    "theater": "CGV",
-    "title": "입에 대한 앙케트",
-    "startDate": "2026-10-13 12:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610081110",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1008/6e348be587da4fba8a229b81a877f17f.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "cgv-202610081111",
-    "theater": "CGV",
-    "title": "타짜: 벨제붑의 노래",
-    "startDate": "2026-10-13 14:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610081111",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1008/af91de106210426da0a0d04815f2d877.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "mega-21373",
-    "theater": "MEGABOX",
-    "title": "입에 대한 앙케트",
-    "startDate": "2026-10-13 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21373",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/02/Fupo1HlbbCAUSrbOXCkno9gLjF2JRQKX.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "cgv-202610080919",
-    "theater": "CGV",
-    "title": "웨일폴: 고래에 먹힌 남자",
-    "startDate": "2026-10-13 16:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610080919",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1008/23145e606908432ba1f3bc5edf4f7d86.png",
-    "category": "서프라이즈쿠폰"
   },
   {
     "id": "mega-21382",
