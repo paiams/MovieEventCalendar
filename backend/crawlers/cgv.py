@@ -1,3 +1,4 @@
+import os
 import re
 from datetime import datetime
 
@@ -104,8 +105,8 @@ def build_movie_events(raw_events):
 
 
 def get_cgv_coupons():
-    # ponytail: CGV가 서버 HTTP 클라이언트를 다시 차단할 때만 브라우저 자동화를 복구한다.
-    print("[CGV] 검색 페이지 세션과 통합 검색 API를 호출합니다...")
+    print("[CGV] 통합 검색 API를 호출합니다...")
+    worker_url = os.environ.get("CGV_WORKER_URL")
     page_url = "https://cgv.co.kr/tme/itgrSrch"
     api_url = "https://cgv.co.kr/api/v1/common/timeline/more/itgrSrch/searchItgrSrchAll"
 
@@ -120,21 +121,24 @@ def get_cgv_coupons():
                 "Accept-Language": "ko-KR,ko;q=0.9",
             }
         )
-        page_response = session.get(
-            page_url,
-            params={"swrd": "쿠폰"},
-            timeout=(5, 20),
-        )
-        page_response.raise_for_status()
-        api_response = session.get(
-            api_url,
-            params={"coCd": "A420", "swrd": "쿠폰"},
-            headers={
-                "Accept": "application/json, text/plain, */*",
-                "Referer": page_response.url,
-            },
-            timeout=(5, 20),
-        )
+        if worker_url:
+            api_response = session.get(worker_url, timeout=(5, 20))
+        else:
+            page_response = session.get(
+                page_url,
+                params={"swrd": "쿠폰"},
+                timeout=(5, 20),
+            )
+            page_response.raise_for_status()
+            api_response = session.get(
+                api_url,
+                params={"coCd": "A420", "swrd": "쿠폰"},
+                headers={
+                    "Accept": "application/json, text/plain, */*",
+                    "Referer": page_response.url,
+                },
+                timeout=(5, 20),
+            )
         api_response.raise_for_status()
 
     raw_events = extract_event_search_payload(api_response.json())
