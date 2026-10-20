@@ -4,7 +4,7 @@
 
 *   **타겟 URL**: https://cgv.co.kr/tme/itgrSrch?swrd=쿠폰
 *   **수집 방식**: **Requests로 통합 검색 API 호출, Actions에서는 Cloudflare Worker를 통해 중계 가능**
-*   **배경**: 2026-10-19 확인 시 로컬 직접 요청은 성공했지만 GitHub 호스팅 실행 환경에서는 Requests, Chrome 연결 방식, 실제 Chromium 모두 CGV의 403 차단 응답을 받았습니다. Cloudflare 공식 Playground에서는 같은 공개 API가 HTTP 200과 영화 쿠폰 13개를 반환했습니다. 스피드 쿠폰과 서프라이즈 쿠폰을 함께 수집하도록 검색어는 '쿠폰'을 사용합니다.
+*   **배경**: 2026-10-19 확인 시 로컬 직접 요청은 성공했지만 GitHub 호스팅 실행 환경에서는 Requests, Chrome 연결 방식, 실제 Chromium 모두 CGV의 403 차단 응답을 받았습니다. 2026-10-20 일반 무료 계정에 서울 인근 실행을 지정한 Worker를 배포한 뒤, GitHub Actions에서도 HTTP 200과 영화 쿠폰 14개를 수집했습니다. 스피드 쿠폰과 서프라이즈 쿠폰을 함께 수집하도록 검색어는 '쿠폰'을 사용합니다.
 
 ## 2. 기술적 특징 및 보안 우회
 

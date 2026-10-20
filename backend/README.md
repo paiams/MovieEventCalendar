@@ -77,7 +77,9 @@ node --test workers/cgv/worker.test.mjs
 
 Workers Free 플랜은 [일 100,000회 요청](https://developers.cloudflare.com/workers/platform/pricing/)을 제공하며, 현재 2시간 주기 수집은 일 12회입니다. 무료 한도 초과나 CGV의 추가 차단 시에는 수집이 실패하고 이전 배포 데이터를 유지합니다. 배포 후에는 GitHub Actions에서도 실제 수집을 확인해야 합니다.
 
-`--temporary`로 배포한 계정은 60분 안에 소유권을 등록하지 않으면 삭제됩니다. 운영에는 일반 무료 계정을 사용하세요. 테스트 중 임시 계정 주소는 Actions에서 Cloudflare 브라우저 확인 화면을 반환했으며, 일반 계정 주소는 정상 호출됐습니다.
+`--temporary`로 배포한 계정은 60분 안에 소유권을 등록하지 않으면 삭제되므로, 운영에는 일반 무료 계정을 사용하세요. 현재 운영 Worker는 `https://movie-event-cgv.kbh1933.workers.dev`입니다.
+
+2026-10-20 [GitHub Actions 실수집 검증](https://github.com/paiams/MovieEventCalendar/actions/runs/39226948478/attempts/2)에서 `cf-placement: remote-ICN`, HTTP 200, CGV 쿠폰 14개와 3사 통합 이벤트 38개를 확인했습니다.
 
 ### GitHub Actions (자동)
 
