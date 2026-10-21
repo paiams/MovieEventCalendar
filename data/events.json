@@ -36,15 +36,6 @@
     "category": "빵원티켓"
   },
   {
-    "id": "lotte-201210016922014-25021",
-    "theater": "LOTTECINEMA",
-    "title": "입에 대한 앙케트",
-    "startDate": "2026-10-15 14:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/25021_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
     "id": "lotte-201210016922014-24910",
     "theater": "LOTTECINEMA",
     "title": "실낙원",
