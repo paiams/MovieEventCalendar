@@ -241,5 +241,32 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21453",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/21/cppiMIyJJUpr2b0JPKZsTkDEuQZwRO6k.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "lotte-201210016922014-25075",
+    "theater": "LOTTECINEMA",
+    "title": "숀 더 쉽: 공포의 털보 괴물",
+    "startDate": "2026-10-23 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/25075_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
+    "id": "lotte-201210016922014-24869",
+    "theater": "LOTTECINEMA",
+    "title": "수능, 출제의 비밀",
+    "startDate": "2026-10-23 14:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/24869_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
+    "id": "mega-21459",
+    "theater": "MEGABOX",
+    "title": "킬링타임",
+    "startDate": "2026-10-23 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21459",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/22/DDNgYw6s8s0MmmJy0kxojN8zA8iCmPDh.jpg",
+    "category": "빵원티켓"
   }
 ]
