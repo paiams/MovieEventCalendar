@@ -349,5 +349,50 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21475",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/23/w66L9gx7kExZ8lvDlPl2GyZMWp9u0cna.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "mega-21481",
+    "theater": "MEGABOX",
+    "title": "브루넬로: 우아한 선구자",
+    "startDate": "2026-10-27 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21481",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/26/MQwSjdE8ASaQ6btCWlNSDqvoYvsZN7ug.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "cgv-202610231734",
+    "theater": "CGV",
+    "title": "레위기",
+    "startDate": "2026-10-27 14:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610231734",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1023/4f160c4c19a24d63b674d73d725547c1.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "mega-21483",
+    "theater": "MEGABOX",
+    "title": "최종면접",
+    "startDate": "2026-10-27 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21483",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/26/DgI7U1sKz7wpZ7HSKSDS8voeiK07TKar.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "cgv-202610231834",
+    "theater": "CGV",
+    "title": "킬링타임",
+    "startDate": "2026-10-27 16:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610231834",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1023/ff1e66ca70964266b6575818aec75da4.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "mega-21485",
+    "theater": "MEGABOX",
+    "title": "레위기",
+    "startDate": "2026-10-27 16:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21485",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/26/JfF9AuANCnKhvd2XRjxWt3x7N2xNEXSF.jpg",
+    "category": "빵원티켓"
   }
 ]
