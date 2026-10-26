@@ -315,6 +315,15 @@
     "category": "빵원티켓"
   },
   {
+    "id": "cgv-202610231835",
+    "theater": "CGV",
+    "title": "최종면접",
+    "startDate": "2026-10-26 15:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610231835",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1023/3bbcb942adc441a4bac1b88b49bf504c.jpg",
+    "category": "스피드쿠폰"
+  },
+  {
     "id": "cgv-202610231733",
     "theater": "CGV",
     "title": "실낙원",
