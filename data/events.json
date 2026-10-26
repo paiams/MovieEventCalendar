@@ -351,6 +351,15 @@
     "category": "빵원티켓"
   },
   {
+    "id": "lotte-201210016922014-24998",
+    "theater": "LOTTECINEMA",
+    "title": "최종면접",
+    "startDate": "2026-10-27 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/24998_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
     "id": "mega-21481",
     "theater": "MEGABOX",
     "title": "브루넬로: 우아한 선구자",
@@ -369,6 +378,15 @@
     "category": "서프라이즈쿠폰"
   },
   {
+    "id": "lotte-201210016922014-25012",
+    "theater": "LOTTECINEMA",
+    "title": "브루넬로: 우아한 선구자",
+    "startDate": "2026-10-27 14:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/25012_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
     "id": "mega-21483",
     "theater": "MEGABOX",
     "title": "최종면접",
@@ -385,6 +403,15 @@
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610231834",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1023/ff1e66ca70964266b6575818aec75da4.jpg",
     "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "lotte-201210016922014-25018",
+    "theater": "LOTTECINEMA",
+    "title": "그대, 별처럼",
+    "startDate": "2026-10-27 16:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/25018_201_1.jpg",
+    "category": "무비싸다구"
   },
   {
     "id": "mega-21485",
