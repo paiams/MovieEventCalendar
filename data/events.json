@@ -430,5 +430,14 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21497",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/20/zsLVjwbPIHC2L0J4VwEWg2eBMgP5aaSM.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "mega-21499",
+    "theater": "MEGABOX",
+    "title": "차오",
+    "startDate": "2026-10-28 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21499",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/27/cpdMYyQ3bMo6MxcAnvFhyAzH1fCmzpnm.jpg",
+    "category": "빵원티켓"
   }
 ]
