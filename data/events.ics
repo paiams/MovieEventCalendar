@@ -15,14 +15,16 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:mega-21497-20261028T113000@movieeventcalendar
-DTSTAMP:20261028T023000Z
-DTSTART;TZID=Asia/Seoul:20261028T113000
-DTEND;TZID=Asia/Seoul:20261028T120000
-SUMMARY:[메가박스] 수능\, 출제의 비밀 - 빵원티켓
-DESCRIPTION:예매 링크: https://megabox.co.kr/event/detail?eventNo=21497
-URL:https://megabox.co.kr/event/detail?eventNo=21497
-LOCATION:메가박스
+UID:lotte-201210016922014-24869-20261029T110000@movieeventcalendar
+DTSTAMP:20261029T020000Z
+DTSTART;TZID=Asia/Seoul:20261029T110000
+DTEND;TZID=Asia/Seoul:20261029T113000
+SUMMARY:[롯데시네마] 수능\, 출제의 비밀 - 무비싸다구
+DESCRIPTION:예매 링크: https://www.lottecinema.co.kr/NLCMW/Event/EventT
+ emplateSpeedMulti?eventId=201210016922014
+URL:https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?event
+ Id=201210016922014
+LOCATION:롯데시네마
 SEQUENCE:0
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -33,13 +35,33 @@ DESCRIPTION:이벤트 10분 전 알림
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:mega-21499-20261028T143000@movieeventcalendar
-DTSTAMP:20261028T053000Z
-DTSTART;TZID=Asia/Seoul:20261028T143000
-DTEND;TZID=Asia/Seoul:20261028T150000
-SUMMARY:[메가박스] 차오 - 빵원티켓
-DESCRIPTION:예매 링크: https://megabox.co.kr/event/detail?eventNo=21499
-URL:https://megabox.co.kr/event/detail?eventNo=21499
+UID:lotte-201210016922014-24910-20261029T160000@movieeventcalendar
+DTSTAMP:20261029T070000Z
+DTSTART;TZID=Asia/Seoul:20261029T160000
+DTEND;TZID=Asia/Seoul:20261029T163000
+SUMMARY:[롯데시네마] 실낙원 - 무비싸다구
+DESCRIPTION:예매 링크: https://www.lottecinema.co.kr/NLCMW/Event/EventT
+ emplateSpeedMulti?eventId=201210016922014
+URL:https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?event
+ Id=201210016922014
+LOCATION:롯데시네마
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:이벤트 10분 전 알림
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-21506-20261029T163000@movieeventcalendar
+DTSTAMP:20261029T073000Z
+DTSTART;TZID=Asia/Seoul:20261029T163000
+DTEND;TZID=Asia/Seoul:20261029T170000
+SUMMARY:[메가박스] 욕쟁이 할머니 - 빵원티켓
+DESCRIPTION:예매 링크: https://megabox.co.kr/event/detail?eventNo=21506
+URL:https://megabox.co.kr/event/detail?eventNo=21506
 LOCATION:메가박스
 SEQUENCE:0
 STATUS:CONFIRMED
