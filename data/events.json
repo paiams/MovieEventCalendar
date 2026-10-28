@@ -9,24 +9,6 @@
     "category": "무비싸다구"
   },
   {
-    "id": "lotte-201210016922014-25064",
-    "theater": "LOTTECINEMA",
-    "title": "베러티",
-    "startDate": "2026-10-19 11:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/25064_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "cgv-202610161414",
-    "theater": "CGV",
-    "title": "베러티",
-    "startDate": "2026-10-19 14:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610161414",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1016/ce6727b80c784656a0df150b3823839b.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
     "id": "cgv-202610161310",
     "theater": "CGV",
     "title": "하트 오브 비스트",
@@ -34,15 +16,6 @@
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610161310",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1016/b3dea831bdc3483c92998a59d347c1ad.jpg",
     "category": "서프라이즈쿠폰"
-  },
-  {
-    "id": "mega-21423",
-    "theater": "MEGABOX",
-    "title": "베러티",
-    "startDate": "2026-10-20 11:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21423",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/19/pdgpYjFDhPZ9TQh2chx9Czd3leMAWLaD.jpg",
-    "category": "빵원티켓"
   },
   {
     "id": "mega-21424",
@@ -69,33 +42,6 @@
     "startDate": "2026-10-21 16:30:00",
     "url": "https://megabox.co.kr/event/detail?eventNo=21431",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/20/zsLVjwbPIHC2L0J4VwEWg2eBMgP5aaSM.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "mega-21452",
-    "theater": "MEGABOX",
-    "title": "타짜: 벨제붑의 노래",
-    "startDate": "2026-10-22 11:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21452",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/21/ogGWnuHwepcHamvCdHemapi1838fpD7E.jpg",
-    "category": "빵원티켓"
-  },
-  {
-    "id": "lotte-201210016922014-24654",
-    "theater": "LOTTECINEMA",
-    "title": "타짜: 벨제붑의 노래",
-    "startDate": "2026-10-22 14:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24654_201_1.jpg",
-    "category": "무비싸다구"
-  },
-  {
-    "id": "mega-21453",
-    "theater": "MEGABOX",
-    "title": "여전히 찬란하게",
-    "startDate": "2026-10-22 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21453",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/21/cppiMIyJJUpr2b0JPKZsTkDEuQZwRO6k.jpg",
     "category": "빵원티켓"
   },
   {
@@ -304,6 +250,15 @@
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/24869_201_1.jpg",
     "category": "무비싸다구"
+  },
+  {
+    "id": "cgv-202610281554",
+    "theater": "CGV",
+    "title": "수능, 출제의 비밀",
+    "startDate": "2026-10-29 15:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610281554",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1028/29fdde1f21ce49d4b4bf76dae700d2ca.JPG",
+    "category": "스피드쿠폰"
   },
   {
     "id": "lotte-201210016922014-24910",
