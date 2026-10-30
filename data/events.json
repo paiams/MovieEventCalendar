@@ -268,5 +268,32 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21506",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/28/s4rUeE76bkpvFmvT1xnx2X6tpJlH40kG.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "mega-21514",
+    "theater": "MEGABOX",
+    "title": "낮과 밤은 서로에게",
+    "startDate": "2026-11-02 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21514",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/29/30rMiebBSIT9Ac2LEcznYpBMwQUSaw92.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "cgv-202610291651",
+    "theater": "CGV",
+    "title": "낮과 밤은 서로에게",
+    "startDate": "2026-11-02 14:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610291651",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1029/1784f977896c4b71835f949e97a3a2c8.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "lotte-201210016922014-25056",
+    "theater": "LOTTECINEMA",
+    "title": "낮과 밤은 서로에게",
+    "startDate": "2026-11-02 14:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/25056_201_1.jpg",
+    "category": "무비싸다구"
   }
 ]
