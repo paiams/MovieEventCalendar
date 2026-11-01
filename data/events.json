@@ -279,6 +279,15 @@
     "category": "빵원티켓"
   },
   {
+    "id": "cgv-202610291650",
+    "theater": "CGV",
+    "title": "수능, 출제의 비밀",
+    "startDate": "2026-11-02 12:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610291650",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1029/39d0bc2938c44fef9c2fa0325845dad6.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
     "id": "cgv-202610291651",
     "theater": "CGV",
     "title": "낮과 밤은 서로에게",
