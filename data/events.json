@@ -72,15 +72,6 @@
     "category": "무비싸다구"
   },
   {
-    "id": "cgv-202610231833",
-    "theater": "CGV",
-    "title": "타짜: 벨제붑의 노래",
-    "startDate": "2026-10-26 12:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610231833",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1023/4667e21c28ae42629a2bdd5899f96b91.jpg",
-    "category": "서프라이즈쿠폰"
-  },
-  {
     "id": "mega-21474",
     "theater": "MEGABOX",
     "title": "7데이즈 7피플",
@@ -97,15 +88,6 @@
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610231835",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1023/3bbcb942adc441a4bac1b88b49bf504c.jpg",
     "category": "스피드쿠폰"
-  },
-  {
-    "id": "cgv-202610231733",
-    "theater": "CGV",
-    "title": "실낙원",
-    "startDate": "2026-10-26 16:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610231733",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1023/385186fe4f804de183cee214c51b9a26.jpg",
-    "category": "서프라이즈쿠폰"
   },
   {
     "id": "lotte-201210016922014-24998",
@@ -169,15 +151,6 @@
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/25018_201_1.jpg",
     "category": "무비싸다구"
-  },
-  {
-    "id": "mega-21485",
-    "theater": "MEGABOX",
-    "title": "레위기",
-    "startDate": "2026-10-27 16:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21485",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/26/JfF9AuANCnKhvd2XRjxWt3x7N2xNEXSF.jpg",
-    "category": "빵원티켓"
   },
   {
     "id": "mega-21497",
