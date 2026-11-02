@@ -268,5 +268,59 @@
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/25056_201_1.jpg",
     "category": "무비싸다구"
+  },
+  {
+    "id": "mega-21534",
+    "theater": "MEGABOX",
+    "title": "수능, 출제의 비밀",
+    "startDate": "2026-11-02 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21534",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/10/20/zsLVjwbPIHC2L0J4VwEWg2eBMgP5aaSM.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "lotte-201210016922014-25023",
+    "theater": "LOTTECINEMA",
+    "title": "변이",
+    "startDate": "2026-11-03 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/25023_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
+    "id": "mega-21535",
+    "theater": "MEGABOX",
+    "title": "최종면접",
+    "startDate": "2026-11-03 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21535",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/02/R7KdOo9piHn93AF6zWSfeGyXCJoUtYWN.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "lotte-201210016922014-24998",
+    "theater": "LOTTECINEMA",
+    "title": "최종면접",
+    "startDate": "2026-11-03 14:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/24998_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
+    "id": "cgv-202610291652",
+    "theater": "CGV",
+    "title": "폴2: 데드포인트",
+    "startDate": "2026-11-03 16:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610291652",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1029/827e01f4f1b74f53861553e7323357c0.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "lotte-201210016922014-24869",
+    "theater": "LOTTECINEMA",
+    "title": "수능, 출제의 비밀",
+    "startDate": "2026-11-03 16:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/24869_201_1.jpg",
+    "category": "무비싸다구"
   }
 ]
