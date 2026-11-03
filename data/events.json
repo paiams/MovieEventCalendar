@@ -295,5 +295,14 @@
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/24869_201_1.jpg",
     "category": "무비싸다구"
+  },
+  {
+    "id": "mega-21543",
+    "theater": "MEGABOX",
+    "title": "폴2: 데드포인트",
+    "startDate": "2026-11-04 16:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21543",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/03/eoe95ZDZYxNp5nKqXIVcxLAAkqoihBwJ.jpg",
+    "category": "빵원티켓"
   }
 ]
