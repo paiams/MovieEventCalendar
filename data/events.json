@@ -178,5 +178,23 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21543",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/03/eoe95ZDZYxNp5nKqXIVcxLAAkqoihBwJ.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "lotte-201210016922014-25121",
+    "theater": "LOTTECINEMA",
+    "title": "폭설",
+    "startDate": "2026-11-05 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/25121_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
+    "id": "lotte-201210016922014-25075",
+    "theater": "LOTTECINEMA",
+    "title": "숀 더 쉽: 공포의 털보 괴물",
+    "startDate": "2026-11-05 14:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202610/25075_201_1.jpg",
+    "category": "무비싸다구"
   }
 ]
