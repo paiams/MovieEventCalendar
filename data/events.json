@@ -196,5 +196,59 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21575",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/05/FCNUQwAehmOWltfiM7SIpasbTusP043t.jpg",
     "category": "빵원티켓"
+  },
+  {
+    "id": "mega-21585",
+    "theater": "MEGABOX",
+    "title": "헝거게임 50번째 추첨의 날",
+    "startDate": "2026-11-09 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21585",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/06/Zo5KQrhjqrDkrcdaW1xCNAF5CBZr5wN4.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "cgv-202611051588",
+    "theater": "CGV",
+    "title": "프레셔",
+    "startDate": "2026-11-09 12:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611051588",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1105/fac69c8c165b4379825301d3837cb118.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "cgv-202611051675",
+    "theater": "CGV",
+    "title": "폭설",
+    "startDate": "2026-11-09 14:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611051675",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1105/3c49efeef80444fba73eabe42164d928.jpg",
+    "category": "서프라이즈쿠폰"
+  },
+  {
+    "id": "lotte-201210016922014-25065",
+    "theater": "LOTTECINEMA",
+    "title": "프레셔",
+    "startDate": "2026-11-09 14:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/25065_201_1.jpg",
+    "category": "무비싸다구"
+  },
+  {
+    "id": "mega-21587",
+    "theater": "MEGABOX",
+    "title": "욕쟁이 할머니",
+    "startDate": "2026-11-09 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21587",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/06/mJyWjDX3CLtZ296EekZMzIllX4yhjKbS.jpg",
+    "category": "빵원티켓"
+  },
+  {
+    "id": "cgv-202611051882",
+    "theater": "CGV",
+    "title": "헝거게임: 50번째 추첨의 날",
+    "startDate": "2026-11-09 16:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611051882",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1105/e80fc51a565f4f0abfdcb25a51244c10.png",
+    "category": "서프라이즈쿠폰"
   }
 ]
