@@ -18,10 +18,20 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: '3.10'
+
+      - name: Install crawler dependencies
+        run: pip install -r backend/requirements.txt
+
+      - name: Test crawler and OCR fallback
+        working-directory: backend
+        run: python -m unittest discover -s tests -v
 
       - name: Install Korean and English OCR
         run: |
@@ -30,56 +40,49 @@ jobs:
           tesseract --version
           tesseract --list-langs
 
-      - name: Extract and verify the live goods start time
+      - name: Verify production crawler and image cache
+        env:
+          PYTHONPATH: backend
         run: |
           python - <<'PY'
           import json
           import os
-          import re
           import subprocess
           import time
-          import urllib.request
-          from datetime import datetime
           from pathlib import Path
+          from unittest.mock import patch
+
+          from crawlers.megabox import get_megabox_zero_tickets
 
           output = Path(os.environ['RUNNER_TEMP']) / 'megabox-ocr'
           output.mkdir()
-          image_url = 'https://img.megabox.co.kr/SharedImg/editorImg/2026/11/10/5Mb44qQePFCGpAVyOFa8jCu7D7c0LuQS.jpg'
-          image = output / '21595.jpg'
-          with urllib.request.urlopen(image_url, timeout=30) as response:
-              image.write_bytes(response.read())
-          print(f'Downloaded {image.stat().st_size} bytes from {image_url}')
+          cache = output / 'megabox-ocr-cache.json'
+          expected = '2026-11-13 12:00:00'
+          run_ocr = subprocess.run
+          started = time.perf_counter()
+          with patch('crawlers.megabox_ocr.subprocess.run', wraps=run_ocr) as ocr:
+              first = get_megabox_zero_tickets(ocr_cache_path=cache)
+              assert ocr.call_count >= 1, 'First crawl did not run OCR'
+          goods = next(event for event in first if event.id == 'mega-21595')
+          assert goods.startDate == expected and not goods.timeUnknown, goods
+          assert cache.is_file(), 'OCR cache was not persisted'
+          first_seconds = round(time.perf_counter() - started, 3)
+          original_cache = cache.read_bytes()
 
-          results = []
-          for mode in ('3', '11'):
-              started = time.perf_counter()
-              completed = subprocess.run(
-                  ['tesseract', str(image), 'stdout', '-l', 'kor+eng', '--psm', mode],
-                  capture_output=True, text=True, check=True, timeout=60,
-              )
-              elapsed = round(time.perf_counter() - started, 3)
-              text = completed.stdout
-              (output / f'psm-{mode}.txt').write_text(text, encoding='utf-8')
-              lines = [line for line in text.splitlines() if re.search(r'\d{1,2}\s*:\s*\d{2}|다운로드', line)]
-              results.append({'psm': mode, 'seconds': elapsed, 'evidence': lines})
-              print(json.dumps(results[-1], ensure_ascii=False))
+          started = time.perf_counter()
+          with patch('crawlers.megabox_ocr.subprocess.run', side_effect=AssertionError('Repeated OCR')):
+              second = get_megabox_zero_tickets(first, ocr_cache_path=cache)
+          cached_goods = next(event for event in second if event.id == 'mega-21595')
+          assert cached_goods.startDate == expected and not cached_goods.timeUnknown, cached_goods
+          assert original_cache == cache.read_bytes(), 'Identical image rewrote the OCR cache'
+          cached_seconds = round(time.perf_counter() - started, 3)
 
-          (output / 'results.json').write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding='utf-8')
-          text = (output / 'psm-11.txt').read_text(encoding='utf-8')
-          matches = re.findall(
-              r'쿠폰\s*다운로드는\s*(\d{1,2})\s*[.월]\s*(\d{1,2})[^\n]{0,20}?(\d{1,2})\s*:\s*(\d{2})',
-              text,
-          )
-          assert matches, 'OCR did not identify an explicit coupon download start time'
-          candidates = {datetime(2026, *map(int, match)) for match in matches}
-          expected = datetime(2026, 11, 13, 12, 0)
-          assert candidates == {expected}, f'Unexpected or ambiguous start times: {candidates}'
-          normalized = next(iter(candidates)).strftime('%Y-%m-%d %H:%M:%S')
-          print(f'PASS: coupon download starts at {normalized} KST')
+          (output / 'events.json').write_text(json.dumps([event.to_dict() for event in second], ensure_ascii=False, indent=2), encoding='utf-8')
+          print(f'PASS: production crawler extracted {goods.startDate} KST; next crawl reused cached OCR')
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as summary:
-              summary.write(f'Native Tesseract on Ubuntu 24.04 extracted **{normalized} KST** from event 21595.\n\n')
-              for result in results:
-                  summary.write(f'- PSM {result["psm"]}: {result["seconds"]} seconds\n')
+              summary.write(f'Production crawler extracted **{goods.startDate} KST** from event 21595.\n\n')
+              summary.write(f'- First crawl with OCR: {first_seconds} seconds\n')
+              summary.write(f'- Second crawl without OCR: {cached_seconds} seconds\n')
           PY
 
       - name: Upload banner and OCR evidence
