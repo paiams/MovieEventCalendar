@@ -45,6 +45,13 @@ jobs:
         working-directory: backend
         run: python -m unittest discover -s tests -v
 
+      - name: Install goods image OCR
+        continue-on-error: true
+        timeout-minutes: 2
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-kor tesseract-ocr-eng
+
       - name: Checkout previous deployment
         uses: actions/checkout@v5
         continue-on-error: true
@@ -60,6 +67,9 @@ jobs:
             cp .previous-deployment/data/events.json frontend/public/data/events.json
           else
             echo "::warning::이전 배포 데이터가 없어 정상 수집된 영화관만 갱신합니다."
+          fi
+          if [ -f .previous-deployment/data/megabox-ocr-cache.json ]; then
+            cp .previous-deployment/data/megabox-ocr-cache.json frontend/public/data/
           fi
 
       - name: Run Crawler

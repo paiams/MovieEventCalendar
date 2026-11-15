@@ -124,7 +124,9 @@ def fetch_all_events():
     crawler_specs = (
         ("CGV", "CGV", get_cgv_coupons),
         ("LotteCinema", "LOTTECINEMA", get_lottecinema_moviesadagu),
-        ("Megabox", "MEGABOX", lambda: get_megabox_zero_tickets(previous_events)),
+        ("Megabox", "MEGABOX", lambda: get_megabox_zero_tickets(
+            previous_events, os.path.join(FRONTEND_DATA_DIR, "megabox-ocr-cache.json"),
+        )),
     )
     failures = []
 

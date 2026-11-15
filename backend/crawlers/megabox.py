@@ -4,6 +4,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from requests.exceptions import RequestException
 
+from crawlers.megabox_ocr import extract_goods_start_date
 from crawlers.models import MovieEvent
 from crawlers.network import create_retry_session
 
@@ -33,10 +34,10 @@ def extract_start_date(html):
     return datetime(*map(int, match.groups())).strftime("%Y-%m-%d %H:%M:%S")
 
 
-def get_megabox_zero_tickets(previous_events=()):
+def get_megabox_zero_tickets(previous_events=(), ocr_cache_path=None):
     """
     메가박스 빵원티켓과 빵원굿즈를 수집합니다.
-    시작 시각이 없는 굿즈는 목록의 날짜와 시간 미확인 표시를 반환합니다.
+    굿즈의 HTML에 시각이 없으면 이미지 OCR을 시도하고, 불확실하면 시간 미확인으로 반환합니다.
     """
     url = "https://m.megabox.co.kr/on/oh/ohe/Event/eventMngDiv.do"
 
@@ -117,10 +118,12 @@ def get_megabox_zero_tickets(previous_events=()):
                         )
                         if not date_match:
                             raise ValueError("굿즈 행사 시작 날짜를 찾을 수 없습니다.")
-                        start_date = datetime(*map(int, date_match.groups())).strftime(
-                            "%Y-%m-%d %H:%M:%S"
+                        listing_date = datetime(*map(int, date_match.groups()))
+                        image_start = extract_goods_start_date(
+                            session, detail_res.text, listing_date, ocr_cache_path,
                         )
-                        time_unknown = True
+                        start_date = image_start or listing_date.strftime("%Y-%m-%d %H:%M:%S")
+                        time_unknown = image_start is None
                 except (RequestException, ValueError) as error:
                     failed_details += 1
                     previous = previous_by_id.get(f"mega-{event_id}")
