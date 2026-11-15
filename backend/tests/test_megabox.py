@@ -90,6 +90,24 @@ class MegaboxCrawlerTest(unittest.TestCase):
         self.assertEqual("2026-11-16 11:30:00", events[0].startDate)
         self.assertFalse(events[0].timeUnknown)
 
+    @patch("crawlers.megabox.extract_goods_start_date")
+    @patch("crawlers.megabox.create_retry_session")
+    def test_goods_use_ocr_time_or_remain_unknown_without_affecting_tickets(self, create_session, ocr):
+        session = create_session.return_value.__enter__.return_value
+        session.post.return_value.text = '<div class="event-list">' + (
+            event_item("21595", "버켓 선착순 빵원굿즈") + event_item("21643")
+        ) + "</div>"
+        for start in ["2026-11-13 12:00:00", None]:
+            with self.subTest(start=start):
+                session.get.side_effect = [Mock(text="이미지에만 시각 표시"), Mock(text=DETAIL_HTML)]
+                ocr.return_value = start
+                events = get_megabox_zero_tickets(ocr_cache_path="cache.json")
+                self.assertEqual(["mega-21595", "mega-21643"], [e.id for e in events])
+                self.assertEqual(start or "2026-11-13 00:00:00", events[0].startDate)
+                self.assertEqual(start is None, events[0].timeUnknown)
+                self.assertEqual("2026-11-16 11:30:00", events[1].startDate)
+                self.assertEqual("cache.json", ocr.call_args.args[3])
+
     @patch("crawlers.megabox.create_retry_session")
     def test_goods_without_valid_dates_are_skipped_without_losing_tickets(self, create_session):
         session = create_session.return_value.__enter__.return_value

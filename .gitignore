@@ -5,3 +5,4 @@ __pycache__/
 # Result Files
 *.ics
 frontend/public/data/events.json
+frontend/public/data/megabox-ocr-cache.json
