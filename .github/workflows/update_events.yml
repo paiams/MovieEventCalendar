@@ -45,6 +45,23 @@ jobs:
         working-directory: backend
         run: python -m unittest discover -s tests -v
 
+      - name: Checkout previous deployment
+        uses: actions/checkout@v5
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: .previous-deployment
+          persist-credentials: false
+
+      - name: Restore previous events
+        run: |
+          mkdir -p frontend/public/data
+          if [ -f .previous-deployment/data/events.json ]; then
+            cp .previous-deployment/data/events.json frontend/public/data/events.json
+          else
+            echo "::warning::이전 배포 데이터가 없어 정상 수집된 영화관만 갱신합니다."
+          fi
+
       - name: Run Crawler
         env:
           CGV_WORKER_URL: ${{ vars.CGV_WORKER_URL }}

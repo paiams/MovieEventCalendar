@@ -6,6 +6,7 @@ export interface MovieEvent {
   url: string;
   imageUrl: string;
   category: string;
+  timeUnknown?: boolean;
 }
 
 export type TheaterFilter = 'ALL' | 'CGV' | 'MEGABOX' | 'LOTTECINEMA';

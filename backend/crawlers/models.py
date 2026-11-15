@@ -15,6 +15,7 @@ class MovieEvent:
     url: str  # 상세 페이지 URL
     imageUrl: Optional[str] = None  # 이미지 URL
     category: Optional[str] = None  # 카테고리 (필요 시)
+    timeUnknown: bool = False  # 날짜만 확인되고 시작 시각은 알 수 없는 이벤트
 
     def to_dict(self):
         """객체를 딕셔너리로 변환 (JSON 저장용)"""

@@ -147,7 +147,7 @@ const CalendarView = ({ events }: CalendarViewProps) => {
 
                   <div className="custom-scrollbar flex flex-1 flex-col gap-1 overflow-y-auto pr-0.5">
                     {dayEvents.map((event) => {
-                      const eventTime = parseEventDate(event.startDate).toLocaleTimeString('ko-KR', {
+                      const eventTime = event.timeUnknown ? '시간 미확인' : parseEventDate(event.startDate).toLocaleTimeString('ko-KR', {
                         hour: '2-digit',
                         minute: '2-digit',
                         hour12: false

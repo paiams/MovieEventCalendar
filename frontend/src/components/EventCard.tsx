@@ -54,28 +54,30 @@ function getTimeRemaining(startDate: string): { label: string; isLive: boolean; 
   return { label: '곧 시작!', isLive: true, isPast: false };
 }
 
-function formatDate(dateStr: string): string {
+function formatDate(dateStr: string, timeUnknown = false): string {
   const d = parseEventDate(dateStr);
   const month = d.getMonth() + 1;
   const day = d.getDate();
   const weekday = ['일', '월', '화', '수', '목', '금', '토'][d.getDay()];
   const hours = d.getHours().toString().padStart(2, '0');
   const minutes = d.getMinutes().toString().padStart(2, '0');
-  return `${month}/${day}(${weekday}) ${hours}:${minutes}`;
+  return `${month}/${day}(${weekday}) ${timeUnknown ? '시간 미확인' : `${hours}:${minutes}`}`;
 }
 
 function buildGoogleCalendarUrl(event: MovieEvent): string {
   const start = parseEventDate(event.startDate);
-  const end = new Date(start.getTime() + 30 * 60 * 1000); // 30분 후 종료
+  const end = new Date(start.getTime() + (event.timeUnknown ? 24 * 60 : 30) * 60 * 1000);
 
   const fmt = (d: Date) =>
-    d.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
+    event.timeUnknown
+      ? d.toLocaleDateString('sv-SE', { timeZone: 'Asia/Seoul' }).replace(/-/g, '')
+      : d.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
 
   const params = new URLSearchParams({
     action: 'TEMPLATE',
     text: `[${THEATER_LABELS[event.theater]}] ${event.title} - ${event.category}`,
     dates: `${fmt(start)}/${fmt(end)}`,
-    details: `${event.category} 이벤트\n예매 링크: ${event.url}`,
+    details: `${event.category} 이벤트\n${event.timeUnknown ? '시작 시간 미확인 — 상세 페이지를 확인하세요.\n' : ''}예매 링크: ${event.url}`,
     location: THEATER_LABELS[event.theater],
   });
 
@@ -89,7 +91,9 @@ interface EventCardProps {
 export default function EventCard({ event }: EventCardProps) {
   const [imgError, setImgError] = useState(false);
   const style = THEATER_STYLES[event.theater] || THEATER_STYLES.CGV;
-  const remaining = getTimeRemaining(event.startDate);
+  const remaining = event.timeUnknown
+    ? { label: '시간 미확인', isLive: false, isPast: false }
+    : getTimeRemaining(event.startDate);
 
   return (
     <div
@@ -145,7 +149,7 @@ export default function EventCard({ event }: EventCardProps) {
           <svg className="h-4 w-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
           </svg>
-          <span>{formatDate(event.startDate)}</span>
+          <span>{formatDate(event.startDate, event.timeUnknown)}</span>
         </div>
 
         {/* 액션 버튼 */}

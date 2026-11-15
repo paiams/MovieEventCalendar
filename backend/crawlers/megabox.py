@@ -1,6 +1,8 @@
 import re
+from datetime import datetime
 
 from bs4 import BeautifulSoup
+from requests.exceptions import RequestException
 
 from crawlers.models import MovieEvent
 from crawlers.network import create_retry_session
@@ -17,17 +19,30 @@ def extract_event_items(html):
     return event_list.select(".item")
 
 
-def get_megabox_zero_tickets():
+def extract_start_date(html):
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup.select("script, style"):
+        tag.decompose()
+    match = re.search(
+        r"기간\s*(\d{4})\s*\.\s*(\d{1,2})\s*\.\s*(\d{1,2})"
+        r"\s*\.?\s*(?:\([월화수목금토일]\)\s*)?(\d{1,2})\s*:\s*(\d{2})",
+        soup.get_text(" ", strip=True),
+    )
+    if not match:
+        raise ValueError("상세 페이지에서 시작 시간을 찾을 수 없습니다.")
+    return datetime(*map(int, match.groups())).strftime("%Y-%m-%d %H:%M:%S")
+
+
+def get_megabox_zero_tickets(previous_events=()):
     """
-    메가박스 '빵원티켓' 목록을 가져온 후,
-    각 이벤트 상세 페이지에 접속하여 정확한 시작 시간(HH:mm)을 파싱하고,
-    영화 제목만 깔끔하게 정제하여 반환합니다.
+    메가박스 빵원티켓과 빵원굿즈를 수집합니다.
+    시작 시각이 없는 굿즈는 목록의 날짜와 시간 미확인 표시를 반환합니다.
     """
     url = "https://m.megabox.co.kr/on/oh/ohe/Event/eventMngDiv.do"
 
     payload = {
         "currentPage": "1",
-        # ponytail: 100건 단일 요청, 동시 진행 이벤트가 이를 넘으면 페이지네이션한다.
+        # shortcut: 100건 단일 요청, 동시 진행 이벤트가 이를 넘으면 페이지네이션한다.
         "recordCountPerPage": "100",
         "eventTitle": "빵원",
         "eventStatCd": "ONG",
@@ -39,6 +54,8 @@ def get_megabox_zero_tickets():
     }
 
     results = []
+    previous_by_id = {event.id: event for event in previous_events}
+    failed_details = 0
     with create_retry_session() as session:
         try:
             # 1. 목록 페이지 조회
@@ -65,32 +82,53 @@ def get_megabox_zero_tickets():
                     continue
 
                 raw_title = title_tag.text.strip()
+                category_match = re.search(r"빵원(?:티켓|굿즈)", raw_title)
+                if not category_match:
+                    continue
+                category = category_match.group()
                 title_match = re.search(r"\[(.*?)\]", raw_title)
-                clean_title = title_match.group(1).strip() if title_match else raw_title
+                clean_title = (
+                    title_match.group(1).strip()
+                    if title_match and category == "빵원티켓" else raw_title
+                )
 
                 img_tag = item.select_one("img")
                 img_url = img_tag.get("data-src", "") if img_tag else ""
                 detail_url = f"https://megabox.co.kr/event/detail?eventNo={event_id}"
 
                 # 2. 상세 페이지에서 정확한 시작 시간을 파싱합니다.
-                detail_res = session.get(
-                    detail_url,
-                    headers=headers,
-                    timeout=DETAIL_TIMEOUT,
-                )
-                detail_res.raise_for_status()
-                time_match = re.search(
-                    r"기간\s*(\d{4})\s*\.\s*(\d{1,2})\s*\.\s*"
-                    r"(\d{1,2}).*?(\d{1,2}:\d{2})",
-                    detail_res.text,
-                )
-                if not time_match:
-                    raise RuntimeError(
-                        f"상세 페이지에서 시작 시간을 찾을 수 없습니다 (ID: {event_id})"
+                time_unknown = False
+                try:
+                    detail_res = session.get(
+                        detail_url,
+                        headers=headers,
+                        timeout=DETAIL_TIMEOUT,
                     )
-
-                year, month, day, time_str = time_match.groups()
-                start_date = f"{year}-{int(month):02d}-{int(day):02d} {time_str}:00"
+                    detail_res.raise_for_status()
+                    try:
+                        start_date = extract_start_date(detail_res.text)
+                    except ValueError:
+                        if category != "빵원굿즈":
+                            raise
+                        date_tag = item.select_one(".date")
+                        date_match = re.match(
+                            r"(\d{4})\s*\.\s*(\d{1,2})\s*\.\s*(\d{1,2})",
+                            date_tag.get_text(strip=True) if date_tag else "",
+                        )
+                        if not date_match:
+                            raise ValueError("굿즈 행사 시작 날짜를 찾을 수 없습니다.")
+                        start_date = datetime(*map(int, date_match.groups())).strftime(
+                            "%Y-%m-%d %H:%M:%S"
+                        )
+                        time_unknown = True
+                except (RequestException, ValueError) as error:
+                    failed_details += 1
+                    previous = previous_by_id.get(f"mega-{event_id}")
+                    if previous is not None:
+                        results.append(previous)
+                    action = "이전 데이터 유지" if previous is not None else "항목 건너뜀"
+                    print(f"::warning::[Megabox] {event_id}: {error} ({action})")
+                    continue
 
                 results.append(
                     MovieEvent(
@@ -100,12 +138,16 @@ def get_megabox_zero_tickets():
                         startDate=start_date,
                         url=detail_url,
                         imageUrl=img_url,
-                        category="빵원티켓",
+                        category=category,
+                        timeUnknown=time_unknown,
                     )
                 )
 
+            if failed_details and not results:
+                raise RuntimeError("모든 빵원 이벤트 상세 조회에 실패했습니다.")
+
         except Exception as error:
-            print(f"[Megabox] 빵원티켓 크롤링 중 오류 발생: {error}")
+            print(f"[Megabox] 빵원 이벤트 크롤링 중 오류 발생: {error}")
             raise RuntimeError("메가박스 크롤링에 실패했습니다.") from error
 
     return results

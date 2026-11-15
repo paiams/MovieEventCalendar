@@ -29,7 +29,7 @@ backend/
     ├── models.py            # MovieEvent 공통 데이터 모델
     ├── network.py           # 공통 HTTP 재시도 세션
     ├── cgv.py               # CGV 스피드쿠폰 크롤러
-    ├── megabox.py           # 메가박스 빵원티켓 크롤러
+    ├── megabox.py           # 메가박스 빵원티켓·빵원굿즈 크롤러
     └── lottecinema.py       # 롯데시네마 무비싸다구 크롤러
 ```
 
@@ -63,7 +63,7 @@ python -m unittest discover -s tests -v
 
 ### GitHub Actions에서 CGV가 403으로 차단될 때
 
-`workers/cgv/worker.mjs`는 고정된 CGV 공개 검색 API만 중계합니다. 기존 Python 파서와 실패 시 배포 중단 동작은 그대로 사용합니다.
+`workers/cgv/worker.mjs`는 고정된 CGV 공개 검색 API만 중계합니다. 실패 시 CGV의 이전 데이터를 유지하고 다른 영화관의 갱신은 계속합니다.
 
 저장소 루트에서 Cloudflare 무료 계정에 Worker를 배포한 뒤, 출력된 `workers.dev` 주소를 GitHub 저장소의 Actions 변수 `CGV_WORKER_URL`로 등록합니다. `wrangler.jsonc`의 `placement.region`은 서울 인근(`aws:ap-northeast-2`)에서 API를 호출하도록 설정합니다.
 
@@ -87,7 +87,12 @@ Workers Free 플랜은 [일 100,000회 요청](https://developers.cloudflare.com
 
 - `push` (main 브랜치) 시에도 자동으로 작동
 - `workflow_dispatch`를 통해 수동으로 실행할 수 있음
-- 어느 한 영화관 크롤러라도 실패하면 부분 데이터를 배포하지 않고 이전 정상 데이터를 유지
+- `gh-pages`의 이전 이벤트를 복원한 뒤 영화관별로 수집하며, 실패한 영화관만 이전 데이터를 유지
+- 메가박스는 빵원티켓과 빵원굿즈를 수집하고, 개별 상세 조회 실패 시 이전 이벤트를 사용하거나 해당 항목만 건너뜀
+- HTML에 시작 시각이 없는 빵원굿즈는 목록의 시작 날짜로 수집하고 `시간 미확인`으로 표시. 캘린더에는 시간 알림 없는 종일 일정으로 등록
+- 이전 데이터가 없는 실패 항목은 경고를 남기고 제외하며, 정상적으로 조회된 빈 목록은 그대로 반영
+- 전체 영화관이 모두 실패하면 배포를 중단하고 기존 배포 데이터를 유지
+- 재시도와 이전 데이터 사용은 자동으로 처리하며 Actions 경고에 기록. 사이트 구조 변경 자체는 코드 수정이 필요
 
 ## 데이터 모델 (`MovieEvent`)
 
@@ -100,6 +105,7 @@ Workers Free 플랜은 [일 100,000회 요청](https://developers.cloudflare.com
 | `url` | `str` | 상세 페이지 URL |
 | `imageUrl` | `str?` | 이미지 URL (선택 사항) |
 | `category` | `str?` | 카테고리 (선택 사항) |
+| `timeUnknown` | `bool` | 시작 시각 미확인 여부. 기본값 `false`, `true`이면 `startDate`의 날짜만 사용 |
 
 ## 출력 파일
 
