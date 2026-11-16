@@ -298,5 +298,45 @@
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/13/6ZfSQHyQr30KuNezVYOgSxdQfdEfD9wC.jpg",
     "category": "빵원티켓",
     "timeUnknown": false
+  },
+  {
+    "id": "mega-21656",
+    "theater": "MEGABOX",
+    "title": "폴2: 데드포인트",
+    "startDate": "2026-11-17 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21656",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/03/eoe95ZDZYxNp5nKqXIVcxLAAkqoihBwJ.jpg",
+    "category": "빵원티켓",
+    "timeUnknown": false
+  },
+  {
+    "id": "cgv-202611121903",
+    "theater": "CGV",
+    "title": "미트 페어런츠4",
+    "startDate": "2026-11-17 12:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611121903",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1112/9e6decb4e25a49fc8a0e1ed74943a6bb.png",
+    "category": "서프라이즈쿠폰",
+    "timeUnknown": false
+  },
+  {
+    "id": "cgv-202611121690",
+    "theater": "CGV",
+    "title": "더 랍스터",
+    "startDate": "2026-11-17 16:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611121690",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1112/7995d1043b4d43b6b6b01dbeb73a12cd.jpg",
+    "category": "서프라이즈쿠폰",
+    "timeUnknown": false
+  },
+  {
+    "id": "lotte-201210016922014-24754",
+    "theater": "LOTTECINEMA",
+    "title": "폴2: 데드포인트",
+    "startDate": "2026-11-17 16:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24754_201_1.jpg",
+    "category": "무비싸다구",
+    "timeUnknown": false
   }
 ]
