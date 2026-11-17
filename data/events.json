@@ -1,25 +1,5 @@
 [
   {
-    "id": "cgv-202610291652",
-    "theater": "CGV",
-    "title": "폴2: 데드포인트",
-    "startDate": "2026-11-03 16:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202610291652",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1029/827e01f4f1b74f53861553e7323357c0.jpg",
-    "category": "서프라이즈쿠폰",
-    "timeUnknown": false
-  },
-  {
-    "id": "mega-21543",
-    "theater": "MEGABOX",
-    "title": "폴2: 데드포인트",
-    "startDate": "2026-11-04 16:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21543",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/03/eoe95ZDZYxNp5nKqXIVcxLAAkqoihBwJ.jpg",
-    "category": "빵원티켓",
-    "timeUnknown": false
-  },
-  {
     "id": "lotte-201210016922014-25121",
     "theater": "LOTTECINEMA",
     "title": "폭설",
@@ -27,26 +7,6 @@
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/25121_201_1.jpg",
     "category": "무비싸다구",
-    "timeUnknown": false
-  },
-  {
-    "id": "lotte-201210016922014-24754",
-    "theater": "LOTTECINEMA",
-    "title": "폴2: 데드포인트",
-    "startDate": "2026-11-06 11:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202609/24754_201_1.jpg",
-    "category": "무비싸다구",
-    "timeUnknown": false
-  },
-  {
-    "id": "mega-21575",
-    "theater": "MEGABOX",
-    "title": "프레셔",
-    "startDate": "2026-11-06 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21575",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/05/FCNUQwAehmOWltfiM7SIpasbTusP043t.jpg",
-    "category": "빵원티켓",
     "timeUnknown": false
   },
   {
@@ -60,16 +20,6 @@
     "timeUnknown": false
   },
   {
-    "id": "cgv-202611051588",
-    "theater": "CGV",
-    "title": "프레셔",
-    "startDate": "2026-11-09 12:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611051588",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1105/fac69c8c165b4379825301d3837cb118.jpg",
-    "category": "서프라이즈쿠폰",
-    "timeUnknown": false
-  },
-  {
     "id": "cgv-202611051675",
     "theater": "CGV",
     "title": "폭설",
@@ -77,16 +27,6 @@
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611051675",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1105/3c49efeef80444fba73eabe42164d928.jpg",
     "category": "서프라이즈쿠폰",
-    "timeUnknown": false
-  },
-  {
-    "id": "lotte-201210016922014-25065",
-    "theater": "LOTTECINEMA",
-    "title": "프레셔",
-    "startDate": "2026-11-09 14:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/25065_201_1.jpg",
-    "category": "무비싸다구",
     "timeUnknown": false
   },
   {
@@ -100,26 +40,6 @@
     "timeUnknown": false
   },
   {
-    "id": "mega-21605",
-    "theater": "MEGABOX",
-    "title": "수능, 출제의 비밀",
-    "startDate": "2026-11-10 11:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21605",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/09/8dS2WLcZ7OVv0LWD28DVGnFXUW7JGnFm.jpg",
-    "category": "빵원티켓",
-    "timeUnknown": false
-  },
-  {
-    "id": "cgv-202611051883",
-    "theater": "CGV",
-    "title": "타짜: 벨제붑의 노래",
-    "startDate": "2026-11-10 12:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611051883",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1105/a53125265d1f4cad88417827395c28d9.jpg",
-    "category": "서프라이즈쿠폰",
-    "timeUnknown": false
-  },
-  {
     "id": "cgv-202611051589",
     "theater": "CGV",
     "title": "극장판 마카앤로니: 기억탐험 대소동!",
@@ -127,46 +47,6 @@
     "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611051589",
     "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1105/f3d9307bbfb14d76b9e4aa54640843fb.png",
     "category": "서프라이즈쿠폰",
-    "timeUnknown": false
-  },
-  {
-    "id": "mega-21607",
-    "theater": "MEGABOX",
-    "title": "드골: 저항의 시작",
-    "startDate": "2026-11-10 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21607",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/09/JlAmKolPSxfeINONpyIXmTgYZTMu8z5o.jpg",
-    "category": "빵원티켓",
-    "timeUnknown": false
-  },
-  {
-    "id": "cgv-202611051590",
-    "theater": "CGV",
-    "title": "드골: 저항의 시작",
-    "startDate": "2026-11-10 16:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611051590",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1105/02de9515b6424f84991d92c77700e9c9.png",
-    "category": "서프라이즈쿠폰",
-    "timeUnknown": false
-  },
-  {
-    "id": "mega-21623",
-    "theater": "MEGABOX",
-    "title": "최종면접",
-    "startDate": "2026-11-11 11:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21623",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/10/eoUjavfmg9CXwTdGeYa3l4SsgCt9QOAs.jpg",
-    "category": "빵원티켓",
-    "timeUnknown": false
-  },
-  {
-    "id": "lotte-201210016922014-24998",
-    "theater": "LOTTECINEMA",
-    "title": "최종면접",
-    "startDate": "2026-11-11 14:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/24998_201_1.jpg",
-    "category": "무비싸다구",
     "timeUnknown": false
   },
   {
