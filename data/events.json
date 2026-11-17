@@ -340,6 +340,16 @@
     "timeUnknown": false
   },
   {
+    "id": "lotte-201210016922014-24998",
+    "theater": "LOTTECINEMA",
+    "title": "최종면접",
+    "startDate": "2026-11-18 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/24998_201_1.jpg",
+    "category": "무비싸다구",
+    "timeUnknown": false
+  },
+  {
     "id": "mega-21672",
     "theater": "MEGABOX",
     "title": "슬픈 열대",
