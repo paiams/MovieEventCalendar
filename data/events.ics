@@ -15,11 +15,29 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:lotte-201210016922014-24998-20261118T110000@movieeventcalendar
-DTSTAMP:20261118T020000Z
-DTSTART;TZID=Asia/Seoul:20261118T110000
-DTEND;TZID=Asia/Seoul:20261118T113000
-SUMMARY:[롯데시네마] 최종면접 - 무비싸다구
+UID:mega-21687-20261119T113000@movieeventcalendar
+DTSTAMP:20261119T023000Z
+DTSTART;TZID=Asia/Seoul:20261119T113000
+DTEND;TZID=Asia/Seoul:20261119T120000
+SUMMARY:[메가박스] 고인아파트 - 빵원티켓
+DESCRIPTION:예매 링크: https://megabox.co.kr/event/detail?eventNo=21687
+URL:https://megabox.co.kr/event/detail?eventNo=21687
+LOCATION:메가박스
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:이벤트 10분 전 알림
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lotte-201210016922014-24920-20261119T140000@movieeventcalendar
+DTSTAMP:20261119T050000Z
+DTSTART;TZID=Asia/Seoul:20261119T140000
+DTEND;TZID=Asia/Seoul:20261119T143000
+SUMMARY:[롯데시네마] 헥스: 마녀왕국 - 무비싸다구
 DESCRIPTION:예매 링크: https://www.lottecinema.co.kr/NLCMW/Event/EventT
  emplateSpeedMulti?eventId=201210016922014
 URL:https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?event
@@ -35,13 +53,13 @@ DESCRIPTION:이벤트 10분 전 알림
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:mega-21672-20261118T113000@movieeventcalendar
-DTSTAMP:20261118T023000Z
-DTSTART;TZID=Asia/Seoul:20261118T113000
-DTEND;TZID=Asia/Seoul:20261118T120000
-SUMMARY:[메가박스] 슬픈 열대 - 빵원티켓
-DESCRIPTION:예매 링크: https://megabox.co.kr/event/detail?eventNo=21672
-URL:https://megabox.co.kr/event/detail?eventNo=21672
+UID:mega-21690-20261119T143000@movieeventcalendar
+DTSTAMP:20261119T053000Z
+DTSTART;TZID=Asia/Seoul:20261119T143000
+DTEND;TZID=Asia/Seoul:20261119T150000
+SUMMARY:[메가박스] 헥스: 마녀왕국 - 빵원티켓
+DESCRIPTION:예매 링크: https://megabox.co.kr/event/detail?eventNo=21690
+URL:https://megabox.co.kr/event/detail?eventNo=21690
 LOCATION:메가박스
 SEQUENCE:0
 STATUS:CONFIRMED
@@ -53,13 +71,33 @@ DESCRIPTION:이벤트 10분 전 알림
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:mega-21673-20261118T143000@movieeventcalendar
-DTSTAMP:20261118T053000Z
-DTSTART;TZID=Asia/Seoul:20261118T143000
-DTEND;TZID=Asia/Seoul:20261118T150000
-SUMMARY:[메가박스] 스트레인저 - 무황인담 - 빵원티켓
-DESCRIPTION:예매 링크: https://megabox.co.kr/event/detail?eventNo=21673
-URL:https://megabox.co.kr/event/detail?eventNo=21673
+UID:lotte-201210016922014-25174-20261119T160000@movieeventcalendar
+DTSTAMP:20261119T070000Z
+DTSTART;TZID=Asia/Seoul:20261119T160000
+DTEND;TZID=Asia/Seoul:20261119T163000
+SUMMARY:[롯데시네마] 슬픈 열대 - 무비싸다구
+DESCRIPTION:예매 링크: https://www.lottecinema.co.kr/NLCMW/Event/EventT
+ emplateSpeedMulti?eventId=201210016922014
+URL:https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?event
+ Id=201210016922014
+LOCATION:롯데시네마
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:이벤트 10분 전 알림
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-21691-20261119T163000@movieeventcalendar
+DTSTAMP:20261119T073000Z
+DTSTART;TZID=Asia/Seoul:20261119T163000
+DTEND;TZID=Asia/Seoul:20261119T170000
+SUMMARY:[메가박스] 실낙원 - 빵원티켓
+DESCRIPTION:예매 링크: https://megabox.co.kr/event/detail?eventNo=21691
+URL:https://megabox.co.kr/event/detail?eventNo=21691
 LOCATION:메가박스
 SEQUENCE:0
 STATUS:CONFIRMED
