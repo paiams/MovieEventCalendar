@@ -270,6 +270,16 @@
     "timeUnknown": false
   },
   {
+    "id": "cgv-202611181935",
+    "theater": "CGV",
+    "title": "헥스: 마녀왕국",
+    "startDate": "2026-11-19 15:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611181935",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1118/65672b9e6d234ae493adcf0541fa06c7.png",
+    "category": "스피드쿠폰",
+    "timeUnknown": false
+  },
+  {
     "id": "lotte-201210016922014-25174",
     "theater": "LOTTECINEMA",
     "title": "슬픈 열대",
