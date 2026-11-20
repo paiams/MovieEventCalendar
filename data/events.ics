@@ -15,14 +15,13 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:mega-21664-20261120T120000@movieeventcalendar
-DTSTAMP:20261120T030000Z
-DTSTART;TZID=Asia/Seoul:20261120T120000
-DTEND;TZID=Asia/Seoul:20261120T123000
-SUMMARY:[메가박스] [블랙 프라이데이] '슈퍼 마리오 갤럭시
-  피규어' 선착순 빵원굿즈 ➕ - 빵원굿즈
-DESCRIPTION:예매 링크: https://megabox.co.kr/event/detail?eventNo=21664
-URL:https://megabox.co.kr/event/detail?eventNo=21664
+UID:mega-21708-20261123T113000@movieeventcalendar
+DTSTAMP:20261123T023000Z
+DTSTART;TZID=Asia/Seoul:20261123T113000
+DTEND;TZID=Asia/Seoul:20261123T120000
+SUMMARY:[메가박스] 헝거게임 50번째 추첨의 날 - 빵원티켓
+DESCRIPTION:예매 링크: https://megabox.co.kr/event/detail?eventNo=21708
+URL:https://megabox.co.kr/event/detail?eventNo=21708
 LOCATION:메가박스
 SEQUENCE:0
 STATUS:CONFIRMED
