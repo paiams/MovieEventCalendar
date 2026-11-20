@@ -290,6 +290,16 @@
     "timeUnknown": false
   },
   {
+    "id": "lotte-201210016922014-24259",
+    "theater": "LOTTECINEMA",
+    "title": "미트 페어런츠 4",
+    "startDate": "2026-11-23 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/24259_201_1.jpg",
+    "category": "무비싸다구",
+    "timeUnknown": false
+  },
+  {
     "id": "mega-21708",
     "theater": "MEGABOX",
     "title": "헝거게임 50번째 추첨의 날",
@@ -297,6 +307,56 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21708",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/20/julwnrCPMQOfEVP8FEc07cthZvW5oynX.jpg",
     "category": "빵원티켓",
+    "timeUnknown": false
+  },
+  {
+    "id": "cgv-202611201828",
+    "theater": "CGV",
+    "title": "헝거게임: 50번째 추첨의 날",
+    "startDate": "2026-11-23 12:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611201828",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1120/3f34b239e0524ce1960de70950bb62c9.png",
+    "category": "서프라이즈쿠폰",
+    "timeUnknown": false
+  },
+  {
+    "id": "cgv-202611201945",
+    "theater": "CGV",
+    "title": "아름다운 초저녁달",
+    "startDate": "2026-11-23 14:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611201945",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1120/99689774178b4e2ebffc1bb26f89efd9.jpg",
+    "category": "서프라이즈쿠폰",
+    "timeUnknown": false
+  },
+  {
+    "id": "lotte-201210016922014-25176",
+    "theater": "LOTTECINEMA",
+    "title": "라파엘",
+    "startDate": "2026-11-23 14:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/25176_201_1.jpg",
+    "category": "무비싸다구",
+    "timeUnknown": false
+  },
+  {
+    "id": "lotte-201210016922014-25258",
+    "theater": "LOTTECINEMA",
+    "title": "펭구와 친구들: 얼음꽁꽁 어드벤처",
+    "startDate": "2026-11-23 16:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/25258_201_1.jpg",
+    "category": "무비싸다구",
+    "timeUnknown": false
+  },
+  {
+    "id": "mega-21711",
+    "theater": "MEGABOX",
+    "title": "[블랙 프라이데이] '스폰지밥 무비 뷰어 컵' 선착순 빵원굿즈 ➕",
+    "startDate": "2026-11-27 12:00:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21711",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/20/djyWFMEL3mbxnr94EjzYtxBHs6ZgMnKe.jpg",
+    "category": "빵원굿즈",
     "timeUnknown": false
   }
 ]
