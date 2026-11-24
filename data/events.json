@@ -1,55 +1,5 @@
 [
   {
-    "id": "lotte-201210016922014-25121",
-    "theater": "LOTTECINEMA",
-    "title": "폭설",
-    "startDate": "2026-11-05 11:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/25121_201_1.jpg",
-    "category": "무비싸다구",
-    "timeUnknown": false
-  },
-  {
-    "id": "mega-21585",
-    "theater": "MEGABOX",
-    "title": "헝거게임 50번째 추첨의 날",
-    "startDate": "2026-11-09 11:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21585",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/06/Zo5KQrhjqrDkrcdaW1xCNAF5CBZr5wN4.jpg",
-    "category": "빵원티켓",
-    "timeUnknown": false
-  },
-  {
-    "id": "cgv-202611051675",
-    "theater": "CGV",
-    "title": "폭설",
-    "startDate": "2026-11-09 14:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611051675",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1105/3c49efeef80444fba73eabe42164d928.jpg",
-    "category": "서프라이즈쿠폰",
-    "timeUnknown": false
-  },
-  {
-    "id": "cgv-202611051882",
-    "theater": "CGV",
-    "title": "헝거게임: 50번째 추첨의 날",
-    "startDate": "2026-11-09 16:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611051882",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1105/e80fc51a565f4f0abfdcb25a51244c10.png",
-    "category": "서프라이즈쿠폰",
-    "timeUnknown": false
-  },
-  {
-    "id": "mega-21637",
-    "theater": "MEGABOX",
-    "title": "아름다운 초저녁달",
-    "startDate": "2026-11-13 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21637",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/12/nvPoFfeL26hltWaYSIPdFCnD8ucu55UT.jpg",
-    "category": "빵원티켓",
-    "timeUnknown": false
-  },
-  {
     "id": "cgv-202611121622",
     "theater": "CGV",
     "title": "슬픈 열대",
@@ -60,72 +10,12 @@
     "timeUnknown": false
   },
   {
-    "id": "lotte-201210016922014-25014",
-    "theater": "LOTTECINEMA",
-    "title": "헝거게임 50번째 추첨의 날",
-    "startDate": "2026-11-16 11:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/25014_201_1.jpg",
-    "category": "무비싸다구",
-    "timeUnknown": false
-  },
-  {
     "id": "mega-21643",
     "theater": "MEGABOX",
     "title": "미트 페어런츠 4",
     "startDate": "2026-11-16 11:30:00",
     "url": "https://megabox.co.kr/event/detail?eventNo=21643",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/13/q7ZANMO6aq9W77kVzjcgjraXJcRzyRpt.jpg",
-    "category": "빵원티켓",
-    "timeUnknown": false
-  },
-  {
-    "id": "cgv-202611121623",
-    "theater": "CGV",
-    "title": "폴2: 데드포인트",
-    "startDate": "2026-11-16 12:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611121623",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1112/078ed2015388447599d52eaad6e570f6.jpg",
-    "category": "서프라이즈쿠폰",
-    "timeUnknown": false
-  },
-  {
-    "id": "cgv-202611121902",
-    "theater": "CGV",
-    "title": "아름다운 초저녁달",
-    "startDate": "2026-11-16 14:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611121902",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1112/6c55c9db9e004951b56c66f5638c1e0e.jpg",
-    "category": "서프라이즈쿠폰",
-    "timeUnknown": false
-  },
-  {
-    "id": "mega-21645",
-    "theater": "MEGABOX",
-    "title": "옆에서 숨만 쉬어도 좋아",
-    "startDate": "2026-11-16 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21645",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/13/1ueoPzGXS1j9h3ZWung1N4A6Dssmg4i1.jpg",
-    "category": "빵원티켓",
-    "timeUnknown": false
-  },
-  {
-    "id": "lotte-201210016922014-25035",
-    "theater": "LOTTECINEMA",
-    "title": "아름다운 초저녁달",
-    "startDate": "2026-11-16 16:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/25035_201_1.jpg",
-    "category": "무비싸다구",
-    "timeUnknown": false
-  },
-  {
-    "id": "mega-21656",
-    "theater": "MEGABOX",
-    "title": "폴2: 데드포인트",
-    "startDate": "2026-11-17 11:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21656",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/03/eoe95ZDZYxNp5nKqXIVcxLAAkqoihBwJ.jpg",
     "category": "빵원티켓",
     "timeUnknown": false
   },
@@ -140,42 +30,12 @@
     "timeUnknown": false
   },
   {
-    "id": "cgv-202611121690",
-    "theater": "CGV",
-    "title": "더 랍스터",
-    "startDate": "2026-11-17 16:00:00",
-    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611121690",
-    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1112/7995d1043b4d43b6b6b01dbeb73a12cd.jpg",
-    "category": "서프라이즈쿠폰",
-    "timeUnknown": false
-  },
-  {
-    "id": "lotte-201210016922014-24998",
-    "theater": "LOTTECINEMA",
-    "title": "최종면접",
-    "startDate": "2026-11-18 11:00:00",
-    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
-    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/24998_201_1.jpg",
-    "category": "무비싸다구",
-    "timeUnknown": false
-  },
-  {
     "id": "mega-21672",
     "theater": "MEGABOX",
     "title": "슬픈 열대",
     "startDate": "2026-11-18 11:30:00",
     "url": "https://megabox.co.kr/event/detail?eventNo=21672",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/17/VMSsXOXAZVCgQi0FwzOU8lyYiJInlByZ.jpg",
-    "category": "빵원티켓",
-    "timeUnknown": false
-  },
-  {
-    "id": "mega-21673",
-    "theater": "MEGABOX",
-    "title": "스트레인저 - 무황인담",
-    "startDate": "2026-11-18 14:30:00",
-    "url": "https://megabox.co.kr/event/detail?eventNo=21673",
-    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/17/nXZGAWOZWdHrbTU8vZBwp7gHDIMaMl7r.jpg",
     "category": "빵원티켓",
     "timeUnknown": false
   },
@@ -370,6 +230,16 @@
     "timeUnknown": false
   },
   {
+    "id": "mega-21740",
+    "theater": "MEGABOX",
+    "title": "슬픈 열대",
+    "startDate": "2026-11-25 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21740",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/24/wLFjrRMVmyrIDtDIKyHERTys0RlWRmpe.jpg",
+    "category": "빵원티켓",
+    "timeUnknown": false
+  },
+  {
     "id": "lotte-201210016922014-12982",
     "theater": "LOTTECINEMA",
     "title": "너의 췌장을 먹고 싶어",
@@ -377,6 +247,16 @@
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/201810/12982_201_1.jpg",
     "category": "무비싸다구",
+    "timeUnknown": false
+  },
+  {
+    "id": "mega-21743",
+    "theater": "MEGABOX",
+    "title": "듄: 파트 3",
+    "startDate": "2026-11-25 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21743",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/24/iHotCQf80lUHc6IplOEAOTYWvpy9dczJ.jpg",
+    "category": "빵원티켓",
     "timeUnknown": false
   },
   {
