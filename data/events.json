@@ -260,12 +260,42 @@
     "timeUnknown": false
   },
   {
+    "id": "cgv-202611242232",
+    "theater": "CGV",
+    "title": "듄: 파트 3",
+    "startDate": "2026-11-25 15:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611242232",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1125/4e4db87e091548f78f693f17dac2a8b1.jpg",
+    "category": "스피드쿠폰",
+    "timeUnknown": false
+  },
+  {
     "id": "lotte-201210016922014-25174",
     "theater": "LOTTECINEMA",
     "title": "슬픈 열대",
     "startDate": "2026-11-25 16:00:00",
     "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
     "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/25174_201_1.jpg",
+    "category": "무비싸다구",
+    "timeUnknown": false
+  },
+  {
+    "id": "lotte-201210016922014-25267",
+    "theater": "LOTTECINEMA",
+    "title": "듄: 파트 3",
+    "startDate": "2026-11-26 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202612/25267_201_1.jpg",
+    "category": "무비싸다구",
+    "timeUnknown": false
+  },
+  {
+    "id": "lotte-201210016922014-24998",
+    "theater": "LOTTECINEMA",
+    "title": "최종면접",
+    "startDate": "2026-11-26 14:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202611/24998_201_1.jpg",
     "category": "무비싸다구",
     "timeUnknown": false
   },
