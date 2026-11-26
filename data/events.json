@@ -290,6 +290,16 @@
     "timeUnknown": false
   },
   {
+    "id": "mega-21765",
+    "theater": "MEGABOX",
+    "title": "뉘른베르크",
+    "startDate": "2026-11-27 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21765",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/26/RJfh9Za9rd6q49tHXC3Ujw7IHa2KURzF.jpg",
+    "category": "빵원티켓",
+    "timeUnknown": false
+  },
+  {
     "id": "mega-21711",
     "theater": "MEGABOX",
     "title": "[블랙 프라이데이] '스폰지밥 무비 뷰어 컵' 선착순 빵원굿즈 ➕",
@@ -297,6 +307,16 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21711",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/20/djyWFMEL3mbxnr94EjzYtxBHs6ZgMnKe.jpg",
     "category": "빵원굿즈",
+    "timeUnknown": false
+  },
+  {
+    "id": "mega-21766",
+    "theater": "MEGABOX",
+    "title": "머지않아, 이별입니다",
+    "startDate": "2026-11-27 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21766",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/26/9NHlF3wSpMQbGMtkKBi8iFeNpjwAZOl0.jpg",
+    "category": "빵원티켓",
     "timeUnknown": false
   }
 ]
