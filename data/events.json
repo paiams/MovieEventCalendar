@@ -308,5 +308,35 @@
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/26/9NHlF3wSpMQbGMtkKBi8iFeNpjwAZOl0.jpg",
     "category": "빵원티켓",
     "timeUnknown": false
+  },
+  {
+    "id": "lotte-201210016922014-25230",
+    "theater": "LOTTECINEMA",
+    "title": "머지않아, 이별입니다",
+    "startDate": "2026-11-30 11:00:00",
+    "url": "https://www.lottecinema.co.kr/NLCMW/Event/EventTemplateSpeedMulti?eventId=201210016922014",
+    "imageUrl": "https://cf.lottecinema.co.kr//Media/MovieFile/MovieImg/202612/25230_201_1.jpg",
+    "category": "무비싸다구",
+    "timeUnknown": false
+  },
+  {
+    "id": "mega-21769",
+    "theater": "MEGABOX",
+    "title": "고인아파트",
+    "startDate": "2026-11-30 11:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21769",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/26/m4miIAiyXHgJi5uDIDZixEsVsQezX0un.jpg",
+    "category": "빵원티켓",
+    "timeUnknown": false
+  },
+  {
+    "id": "mega-21768",
+    "theater": "MEGABOX",
+    "title": "서울의 밤",
+    "startDate": "2026-11-30 14:30:00",
+    "url": "https://megabox.co.kr/event/detail?eventNo=21768",
+    "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/26/ngUxuJUL2QylrAKXfQnUfl330Bowd1Eo.jpg",
+    "category": "빵원티켓",
+    "timeUnknown": false
   }
 ]
