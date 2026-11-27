@@ -310,6 +310,16 @@
     "timeUnknown": false
   },
   {
+    "id": "cgv-202611262237",
+    "theater": "CGV",
+    "title": "슬픈 열대",
+    "startDate": "2026-11-30 11:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611262237",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1126/05d9ebf7056c481692924979bb4c1b24.png",
+    "category": "서프라이즈쿠폰",
+    "timeUnknown": false
+  },
+  {
     "id": "lotte-201210016922014-25230",
     "theater": "LOTTECINEMA",
     "title": "머지않아, 이별입니다",
@@ -330,6 +340,26 @@
     "timeUnknown": false
   },
   {
+    "id": "cgv-202611262060",
+    "theater": "CGV",
+    "title": "패러렐 테일즈: 데칼로그",
+    "startDate": "2026-11-30 12:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611262060",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1126/542d607128164c4aa183fb148e7d3819.jpg",
+    "category": "서프라이즈쿠폰",
+    "timeUnknown": false
+  },
+  {
+    "id": "cgv-202611261972",
+    "theater": "CGV",
+    "title": "러브 와이파이 궁",
+    "startDate": "2026-11-30 14:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611261972",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1126/70804ce8a8b94d83b8e44446ead5c34a.png",
+    "category": "서프라이즈쿠폰",
+    "timeUnknown": false
+  },
+  {
     "id": "mega-21768",
     "theater": "MEGABOX",
     "title": "서울의 밤",
@@ -337,6 +367,16 @@
     "url": "https://megabox.co.kr/event/detail?eventNo=21768",
     "imageUrl": "https://img.megabox.co.kr/SharedImg/event/2026/11/26/ngUxuJUL2QylrAKXfQnUfl330Bowd1Eo.jpg",
     "category": "빵원티켓",
+    "timeUnknown": false
+  },
+  {
+    "id": "cgv-202611261973",
+    "theater": "CGV",
+    "title": "머지않아, 이별입니다",
+    "startDate": "2026-11-30 16:00:00",
+    "url": "https://cgv.co.kr/evt/eventDetail?evntNo=202611261973",
+    "imageUrl": "https://cdn.cgv.co.kr/cgvpomscontent/ips/evnt/2026/1126/15c4223733cf4e90978ea367659e60ad.jpg",
+    "category": "서프라이즈쿠폰",
     "timeUnknown": false
   }
 ]
